@@ -15,7 +15,7 @@ Is it unbiased? How? We have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as
 
 First of all, we can rewrite the expression for $S_n$. We observe the following:
 
-$$ \sum\_{i=1}^n (X_i -\bar{X}\_n)^2 = \sum\_{i=1}^n (X_i -\mu)^2 - n(\bar{X}\_n-\mu)^2 $$
+$$ \sum_{i=1}^n (X_i -\bar{X}\_n)^2 = \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}\_n-\mu)^2 $$
 
 Indeed:
 
