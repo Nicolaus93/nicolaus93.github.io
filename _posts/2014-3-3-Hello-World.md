@@ -12,5 +12,4 @@ $$ S_n^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}_n-\mu)^2 $$
 
 Is it unbiased? How? We have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
 
-$$ a \overset{p}{\to} b $$
-$$a^2 + b^2 = c^2$$
+First of all, we can rewrite the expression for $S_n$
