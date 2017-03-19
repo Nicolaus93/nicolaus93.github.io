@@ -57,17 +57,18 @@ We now consider the first term in $\eqref{3}$:
 
 $$ \frac{1}{n-1} \sum_{i=1}^n (X_i -\mu)^2 = \frac{n}{n-1}\frac{1}{n} \sum_{i=1}^n (X_i -\mu)^2 $$ 
 
-We can use the (weak) law of large numbers to get:
+Since $ X_1, X_2, ..., X_n$ are iid random variables with \mathrm{E}[X_i]=\mu, we can use the (weak) law of large numbers to get:
 
 $$ \frac{1}{n} \sum_{i=1}^n (X_i - \mu)^2  \overset{P}{\to} E[X-\mu]^2 = \mathrm{Var}[X] = \sigma^2$$
 
-Since $\frac{n}{n-1} \to 1 as $n \to \infty$:
+Since $\frac{n}{n-1} \to 1 $ as $n \to \infty$:
 
 $$ \frac{1}{n-1} \sum_{i=1}^n (X_i - \mu)^2 = \frac{n}{n-1} \frac{1}{n} \sum_{i=1}^n (X-i-\mu)^2 \overset{P}{\to} \sigma^2 $$
 
 as $ n \to \infty $.
+
 Now we have to show that the second term in $\eqref{3}$ converges in probability to 0.
-Again, since $ X_1, X_2, ..., X_n$ are iid random variables with \mathrm{E}[X_i]=\mu, we get by the law of large number:
+Again, since $ X_1, X_2, ..., X_n$ are iid random variables with $\mathrm{E}[X_i]=\mu$, we get by the (weak) law of large numbers:
 
 $$ \bar{X}_n - \mu  \overset{P}{\to} \mu-\mu = 0$$
 
