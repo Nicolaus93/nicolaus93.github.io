@@ -21,7 +21,7 @@ Indeed:
 
 $$
 \begin{align}
-  \sum_{i=1}^n (X_i -\bar{X}_n)^2 & = \sum_{i=1}^n ((X_i -\mu) - (\bar{X}_n - \mu))^2 \\
+  \sum_{i=1}^n (X_i -\bar{X}_n)^2 & = \sum_{i=1}^n ((X_i -\mu) - (\bar{X}_n - \mu))^2 = \\
    & = \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) \tag{2}\label{2}
 \end{align}
 $$
@@ -36,11 +36,15 @@ $$ \sum_{i=1}^n(X_i - \mu) = \sum_{i=1}^n X_i - n\mu = n\bar{X}_n - n\mu = n(\ba
 
 Thus in $\eqref{2}$:
 
-$$ \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) = $$
+$$
+\begin{align}
+& \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) = \\
 
-$$ \sum_{i=1}^n (X_i -\mu)^2 + n (\bar{X}_n -\mu)^2 - 2n (\bar{X}_n -\mu)^2  $$ 
+& = \sum_{i=1}^n (X_i -\mu)^2 + n (\bar{X}_n -\mu)^2 - 2n (\bar{X}_n -\mu)^2 = \\ 
 
-$$ \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}_n -\mu)^2 $$
+& = \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}_n -\mu)^2 
+\end{align}
+$$
 
 as claimed.
 
