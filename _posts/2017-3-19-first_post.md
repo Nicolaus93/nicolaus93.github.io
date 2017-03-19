@@ -60,3 +60,21 @@ $$ \frac{1}{n-1} \sum_{i=1}^n (X_i -\mu)^2 = \frac{n}{n-1}\frac{1}{n} \sum_{i=1}
 We can use the (weak) law of large numbers to get:
 
 $$ \frac{1}{n} \sum_{i=1}^n (X_i - \mu)^2  \overset{P}{\to} E[X-\mu]^2 = \mathrm{Var}[X] = \sigma^2$$
+
+Since $\frac{n}{n-1} \to 1 as $n \to \infty$:
+
+$$ \frac{1}{n-1} \sum_{i=1}^n (X_i - \mu)^2 = \frac{n}{n-1} \frac{1}{n} \sum_{i=1}^n (X-i-\mu)^2 \overset{P}{\to} \sigma^2 $$
+
+as $ n \to \infty $.
+Now we have to show that the second term in $\eqref{3}$ converges in probability to 0.
+Again, since $ X_1, X_2, ..., X_n$ are iid random variables with \mathrm{E}[X_i]=\mu, we get by the law of large number:
+
+$$ \bar{X}_n - \mu  \overset{P}{\to} \mu-\mu = 0$$
+
+And, since $g(x)=x^2$ is a continuous function, we get that:
+
+$$ \frac{n}{n-1}(\bar{X}_n-\mu)^2 = \frac{n}{n-1}g(\bar{X}_n-\mu) \overset{P}{\to} g(0) = 0 $$
+
+as $n {\to} \infty. Thus, we have established that:
+
+$$ \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \overset{P}{\to} \sigma^2 $$
