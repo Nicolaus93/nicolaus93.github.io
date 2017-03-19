@@ -19,13 +19,11 @@ $$ \sum_{i=1}^n (X_i -\bar{X}_n)^2 = \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}_n-\mu
 
 Indeed:
 
-$$ \sum_{i=1}^n (X_i -\bar{X}_n)^2 & = \sum_{i=1}^n ((X_i -\mu) - (\bar{X}_n - \mu))^2 =$$
-
-$$ = \sum\_{i=1}^n ((X_i -\mu)^2 + \sum\_{i=1}^n ((\bar{X}\_n -\mu)^2 - 2(\bar{X}\_n - \mu)\sum\_{i=1}^n(X_i - \mu) $$
-
 \begin{align}
   \sum\_{i=1}^n (X_i -\bar{X}\_n)^2 & = \sum\_{i=1}^n ((X_i -\mu) - (\bar{X}\_n - \mu))^2 \\
    & = \sum\_{i=1}^n ((X_i -\mu)^2 + \sum\_{i=1}^n ((\bar{X}\_n -\mu)^2 - 2(\bar{X}\_n - \mu)\sum\_{i=1}^n(X_i - \mu) \tag{2}\label{2}
+   & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+   & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
 \end{align}
 
 And we have that:
@@ -42,7 +40,7 @@ $$ \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \
 
 $$ \sum_{i=1}^n (X_i -\mu)^2 + n (\bar{X}_n -\mu)^2 - 2n (\bar{X}_n -\mu)^2  $$ 
 
-$$ \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}\_n -\mu)^2 $$
+$$ \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}_n -\mu)^2 $$
 
 as claimed.
 
