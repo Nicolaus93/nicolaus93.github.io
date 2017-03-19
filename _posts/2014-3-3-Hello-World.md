@@ -21,8 +21,8 @@ Indeed:
 
 $$
 \begin{align}
-  \sum\_{i=1}^n (X_i -\bar{X}\_n)^2 & = \sum\_{i=1}^n ((X_i -\mu) - (\bar{X}\_n - \mu))^2 \\
-   & = \sum\_{i=1}^n ((X_i -\mu)^2 + \sum\_{i=1}^n ((\bar{X}\_n -\mu)^2 - 2(\bar{X}\_n - \mu)\sum\_{i=1}^n(X_i - \mu) \tag{2}\label{2}
+  \sum_{i=1}^n (X_i -\bar{X}_n)^2 & = \sum_{i=1}^n ((X_i -\mu) - (\bar{X}_n - \mu))^2 \\
+   & = \sum_{i=1}^n ((X_i -\mu)^2 + \sum_{i=1}^n ((\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) \tag{2}\label{2}
 \end{align}
 $$
 
