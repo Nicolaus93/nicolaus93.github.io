@@ -15,9 +15,13 @@ Is it unbiased? How? We have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as
 
 First of all, we can rewrite the expression for $S_n$. We observe the following:
 
-$$ \sum_{i=1}^n (X_i -\bar{X}\_n)^2 = \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}\_n-\mu)^2 $$
+$$ \sum_{i=1}^n (X_i -\bar{X}_n)^2 = \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}_n-\mu)^2 $$
 
 Indeed:
+
+$$ \sum_{i=1}^n (X_i -\bar{X}_n)^2 & = \sum_{i=1}^n ((X_i -\mu) - (\bar{X}_n - \mu))^2 =$$
+
+$$ = \sum\_{i=1}^n ((X_i -\mu)^2 + \sum\_{i=1}^n ((\bar{X}\_n -\mu)^2 - 2(\bar{X}\_n - \mu)\sum\_{i=1}^n(X_i - \mu) $$
 
 \begin{align}
   \sum\_{i=1}^n (X_i -\bar{X}\_n)^2 & = \sum\_{i=1}^n ((X_i -\mu) - (\bar{X}\_n - \mu))^2 \\
@@ -26,19 +30,19 @@ Indeed:
 
 And we have that:
 
-$$ \sum_{i=1}^n ((\bar{X}\_n -\mu)^2 = n ((\bar{X}\_n -\mu)^2  $$
+$$ \sum_{i=1}^n (\bar{X}_n -\mu)^2 = n (\bar{X}_n -\mu)^2  $$
 
 and:
 
-$$ \sum_{i=1}^n(X_i - \mu) = \sum_{i=1}^n X_i - n\mu = n\bar{X}\_n - n\mu = n(\bar{X}\_n - \mu) $$ 
+$$ \sum_{i=1}^n(X_i - \mu) = \sum_{i=1}^n X_i - n\mu = n\bar{X}_n - n\mu = n(\bar{X}_n - \mu) $$ 
 
 Thus in $\eqref{2}$:
 
-$$ \sum_{i=1}^n ((X_i -\mu)^2 + \sum_{i=1}^n ((\bar{X}\_n -\mu)^2 - 2(\bar{X}\_n - \mu)\sum_{i=1}^n(X_i - \mu) = $$
+$$ \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) = $$
 
-$$ \sum_{i=1}^n ((X_i -\mu)^2 + n (\bar{X}\_n -\mu)^2 - 2n (\bar{X}\_n -\mu)^2  $$ 
+$$ \sum_{i=1}^n (X_i -\mu)^2 + n (\bar{X}_n -\mu)^2 - 2n (\bar{X}_n -\mu)^2  $$ 
 
-$$ \sum_{i=1}^n ((X_i -\mu)^2 - n (\bar{X}\_n -\mu)^2 $$
+$$ \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}\_n -\mu)^2 $$
 
 as claimed.
 
