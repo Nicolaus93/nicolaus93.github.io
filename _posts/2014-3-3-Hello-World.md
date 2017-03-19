@@ -5,7 +5,7 @@ title: Unbiased estimators
 
 Variance? Whaaaat?
 
-We have $X_1, X_2, ... $ independet and identically distributed random variables with $E[X_i]=\mu$ and $Var[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $.
+We have $X_1, X_2, ... $ independent and identically distributed random variables with $E[X_i]=\mu$ and $Var[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $.
 
 A well known estimator of variance in statistics is:
 
@@ -25,3 +25,9 @@ Indeed:
 \end{align}
 
 And we have that:
+
+$$ \sum\_{i=1}^n ((\bar{X}\_n -\mu)^2 = n ((\bar{X}\_n -\mu)^2  $$
+
+and:
+
+$$ \sum\_{i=1}^n(X_i - \mu) = \sum\_{i=1}^n X_i - n\mu = n\bar{X}\_n - n\mu = n(\bar{X}\_n - \mu) $$ 
