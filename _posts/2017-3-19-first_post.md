@@ -76,6 +76,6 @@ And, since $g(x)=x^2$ is a continuous function, we get that:
 
 $$ \frac{n}{n-1}(\bar{X}_n-\mu)^2 = \frac{n}{n-1}g(\bar{X}_n-\mu) \overset{P}{\to} g(0) = 0 $$
 
-as $n {\to} \infty. Thus, we have established that:
+as $n {\to} \infty$. Thus, we have established that:
 
 $$ \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \overset{P}{\to} \sigma^2 $$
