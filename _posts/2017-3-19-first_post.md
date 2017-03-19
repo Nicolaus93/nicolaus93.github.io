@@ -22,7 +22,7 @@ Indeed:
 $$
 \begin{align}
   \sum_{i=1}^n (X_i -\bar{X}_n)^2 & = \sum_{i=1}^n ((X_i -\mu) - (\bar{X}_n - \mu))^2 \\
-   & = \sum_{i=1}^n ((X_i -\mu)^2 + \sum_{i=1}^n ((\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) \tag{2}\label{2}
+   & = \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}_n - \mu)\sum_{i=1}^n(X_i - \mu) \tag{2}\label{2}
 \end{align}
 $$
 
@@ -44,3 +44,11 @@ $$ \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}_n -\mu)^2 $$
 
 as claimed.
 
+Then in $\eqref{1}$:
+
+$$
+\begin{align}
+ S^2_n & = \frac{1}{n-1} \sum_{i=1}^n ((X_i - \bar{X}_n)^2 \\
+   & = \frac{1}{n-1} \sum_{i=1}^n ((X_i -\mu)^2 + \frac{n}{n-1} \sum_{i=1}^n ((\bar{X}_n -\mu)^2 \tag{3}\label{3}
+\end{align}
+$$
