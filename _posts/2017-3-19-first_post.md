@@ -57,7 +57,7 @@ We now consider the first term in $\eqref{3}$:
 
 $$ \frac{1}{n-1} \sum_{i=1}^n (X_i -\mu)^2 = \frac{n}{n-1}\frac{1}{n} \sum_{i=1}^n (X_i -\mu)^2 $$ 
 
-Since $ X_1, X_2, ..., X_n$ are iid random variables with \mathrm{E}[X_i]=\mu, we can use the (weak) law of large numbers to get:
+Since $ X_1, X_2, ..., X_n$ are iid random variables with $\mathrm{E}[X_i]=\mu$, we can use the (weak) law of large numbers to get:
 
 $$ \frac{1}{n} \sum_{i=1}^n (X_i - \mu)^2  \overset{P}{\to} E[X-\mu]^2 = \mathrm{Var}[X] = \sigma^2$$
 
