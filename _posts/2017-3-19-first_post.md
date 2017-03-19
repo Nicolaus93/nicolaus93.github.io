@@ -5,7 +5,7 @@ title: Unbiased estimators
 
 Variance? Whaaaat?
 
-We have $X_1, X_2, ... $ independent and identically distributed random variables with $E[X_i]=\mu$ and $Var[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $.
+We have $X_1, X_2, ... $ independent and identically distributed random variables with $E[X_i]=\mu$ and $\mathrm{Var}[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $.
 
 A well known estimator of variance in statistics is:
 
@@ -48,7 +48,15 @@ Then in $\eqref{1}$:
 
 $$
 \begin{align}
- S^2_n & = \frac{1}{n-1} \sum_{i=1}^n ((X_i - \bar{X}_n)^2 \\
-   & = \frac{1}{n-1} \sum_{i=1}^n ((X_i -\mu)^2 + \frac{n}{n-1} \sum_{i=1}^n ((\bar{X}_n -\mu)^2 \tag{3}\label{3}
+ S^2_n & = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \\
+   & = \frac{1}{n-1} \sum_{i=1}^n (X_i -\mu)^2 + \frac{n}{n-1} \sum_{i=1}^n (\bar{X}_n -\mu)^2 \tag{3}\label{3}
 \end{align}
 $$
+
+We now consider the first term in $\eqref{3}$:
+
+$$ \frac{1}{n-1} \sum_{i=1}^n (X_i -\mu)^2 = \frac{n}{n-1}\frac{1}{n} \sum_{i=1}^n (X_i -\mu)^2 $$ 
+
+We can use the (weak) law of large numbers to get:
+
+$$ \frac{1}{n} \sum_{i=1}^n (X_i - \mu)^2  \overset{P}{\to} E[X-\mu]^2 = \mathrm{Var}[X] = \sigma^2$$
