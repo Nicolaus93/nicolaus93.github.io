@@ -13,6 +13,15 @@ $$ S_n^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \tag{1}\label{1}$$
 
 Is it unbiased? How? We have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
 
-First of all, we can rewrite the expression for $S_n$. We can observe the following:
+First of all, we can rewrite the expression for $S_n$. We observe the following:
 
-$$ \sum_{i=1}^n (X_i -\bar{X}_n)^2 = \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}_n-\mu)^2 $$
+$$ \sum\_{i=1}^n (X_i -\bar{X}\_n)^2 = \sum\_{i=1}^n (X_i -\mu)^2 - n(\bar{X}\_n-\mu)^2 $$
+
+Indeed:
+
+\begin{align}
+  \sum\_{i=1}^n (X_i -\bar{X}\_n)^2 & = \sum\_{i=1}^n ((X_i -\mu) - (\bar{X}\_n - \mu))^2 \\
+   & = \sum\_{i=1}^n ((X_i -\mu)^2 + \sum\_{i=1}^n ((\bar{X}\_n -\mu)^2 - 2(\bar{X}\_n - \mu)\sum\_{i=1}^n(X_i - \mu)
+\end{align}
+
+And we have that:
