@@ -5,7 +5,7 @@ title: Unbiased estimators
 
 Variance? Whaaaat?
 
-We have $X_1, X_2, ... $ independet and identically distributed random variables with $E[X_i]=\mu$ and $Var[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}_n=\frac{1}{n}\sum_{i=1}^n X_i $.
+We have $X_1, X_2, ... $ independet and identically distributed random variables with $E[X_i]=\mu$ and $Var[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $.
 
 A well known estimator of variance in statistics is:
 
