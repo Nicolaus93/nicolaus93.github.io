@@ -7,6 +7,8 @@ Variance? Whaaaat?
 
 Everybody knows that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)]$, where $\mu=\mathrm{E}[X]$. However, how can we estimate the variance related to some population?
 
+![Variance portrait](/assets/variance.jpg)
+
 Assuming we have $X_1, X_2, ..., X_n $ independent and identically distributed random variables with $\mathrm{E}[X_i]=\mu$ and $\mathrm{Var}[X_i]=\sigma^2 < + \infty$, we set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $. Then a well known estimator of variance in statistics is:
 
 $$ S_n^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \tag{1}\label{1}$$
