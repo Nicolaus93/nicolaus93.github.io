@@ -1,17 +1,24 @@
 ---
 layout: post
-title: Unbiased estimators
+title: Member Variance?
 ---
 
 Variance? Whaaaat?
 
-We have $X_1, X_2, ..., X_n $ independent and identically distributed random variables with $\mathrm{E}[X_i]=\mu$ and $\mathrm{Var}[X_i]=\sigma^2 < + \infty$. We set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $.
+Everybody knows that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)]$ (where $\mu=\mathrm{E}[X]$. However, how can we estimate the variance related to some population?
 
-A well known estimator of variance in statistics is:
+Assuming we have $X_1, X_2, ..., X_n $ independent and identically distributed random variables with $\mathrm{E}[X_i]=\mu$ and $\mathrm{Var}[X_i]=\sigma^2 < + \infty$, we set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $. Then a well known estimator of variance in statistics is:
 
 $$ S_n^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \tag{1}\label{1}$$
 
-Is it unbiased? How? We have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
+Is it unbiased (a.k.a. does it converge to the true value)? We have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
+
+First, we need to recall some definitions:
+
+A sequence $(X_n)\_{n\in \mathbb{N}}$ of real-valued random variables is said to converge in probability to some other P
+real-valued random variable $X$ , denoted $Xn \to X$ , if for all $\varepsilon > 0$:
+
+$$ P(|X_n −X|\geq \varepsilon) \to 0 \quad as \quad n\to \infty $$
 
 First of all, we can rewrite the expression for $S_n$. We observe the following:
 
