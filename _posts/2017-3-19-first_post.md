@@ -32,11 +32,10 @@ $$ P(|X_n −X|\geq \varepsilon) \to 0 \quad as \quad n\to \infty $$
 ⋅⋅⋅I will write it
 
 Then, we have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
+
 To start, we can rewrite the expression for $S_n$. We observe the following:
 
 $$ \sum_{i=1}^n (X_i -\bar{X}_n)^2 = \sum_{i=1}^n (X_i -\mu)^2 - n(\bar{X}_n-\mu)^2 $$
-
-
 
 Indeed:
 
