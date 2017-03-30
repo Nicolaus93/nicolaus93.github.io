@@ -21,13 +21,13 @@ Is it unbiased (a.k.a. does it converge to the true value)?
 
 First, we need to recall some definitions:
 
-+ **Convergence in probability
+#### Convergence in probability
 
 ⋅⋅⋅A sequence $(X_n)\_{n\in \mathbb{N}}$ of real-valued random variables is said to converge in probability to some other real-valued random variable $X$ , denoted $X_n \overset{P}\to X$ , if for all $\varepsilon > 0$:
 
 $$ P(|X_n −X|\geq \varepsilon) \to 0 \quad as \quad n\to \infty $$
 
-+ **(Weak) Law of Large Numbers
+#### (Weak) Law of Large Numbers
 
 ⋅⋅⋅I will write it
 
