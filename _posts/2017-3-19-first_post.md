@@ -10,15 +10,9 @@ Everybody knows that the variance of a random variable $X$ is defined as $\mathr
 <dl>
   <div class="image-wrapper" >
     <img src="/assets/variance.jpg" alt="Nice Variance"/>
-    <p class="image-caption">A variance portrait from <a href="https://it.wikipedia.org/wiki/Raffaello_Sanzio">Rafaello</a></p>
+    <p class="image-caption">A variance portrait from <a href='https://it.wikipedia.org/wiki/Raffaello_Sanzio'>Raffaello</a></p>
   </div>
 </dl>
-
-{% include image.html
-            img="/assets/variance.jpg"
-            title="A nice variance"
-            caption="caption="A variance portrait from meh."
-            url="https://it.wikipedia.org/wiki/Raffaello_Sanzio" %}
 
 Assuming we have $X_1, X_2, ..., X_n $ independent and identically distributed random variables with $\mathrm{E}[X_i]=\mu$ and $\mathrm{Var}[X_i]=\sigma^2 < + \infty$, we set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $. Then a well known estimator of variance in statistics is:
 
