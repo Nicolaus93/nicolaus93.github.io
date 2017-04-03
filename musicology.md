@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Musicology
-permalink: /Musicology/
+permalink: /musicology/
 ---
 
 Save albums!
