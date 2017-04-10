@@ -4,7 +4,7 @@ title: Musicology
 permalink: /musicology/
 ---
 
-Save albums!
+Some notes about the music I like!
 
 # Brazilian
 Azimuth - [LP Azimuth](https://www.youtube.com/watch?v=m6PxI_-MowE)
