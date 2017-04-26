@@ -9,6 +9,9 @@ Some notes about the music I like!
 # Brazilian
 Azimuth - [LP Azimuth](https://www.youtube.com/watch?v=m6PxI_-MowE)
 
+# Funky
+Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
