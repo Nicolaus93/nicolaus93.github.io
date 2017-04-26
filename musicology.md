@@ -9,7 +9,7 @@ Some notes about the music I like!
 # Brazilian
 Azimuth - [LP Azimuth](https://www.youtube.com/watch?v=m6PxI_-MowE)
 
-# Funky
+# Fusion
 Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
 
 # Youth
