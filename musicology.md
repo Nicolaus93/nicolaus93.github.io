@@ -11,6 +11,7 @@ Azimuth - [LP Azimuth](https://www.youtube.com/watch?v=m6PxI_-MowE)
 
 # Japan
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
+
 Japanese Citypop - [Funk Summer Chill MIX](https://www.youtube.com/watch?v=VRXG0TrgOSY&t=1741s)
 
 # Fusion
