@@ -17,7 +17,7 @@ Japanese Citypop - [Funk Summer Chill MIX](https://www.youtube.com/watch?v=VRXG0
 # Fusion
 Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
 
-Herbie Hancock - [Man Child](https://www.youtube.com/watch?v=TikRSpQDr6I) (1975)
+Herbie Hancock - [Man Child](https://www.youtube.com/watch?v=TikRSpQDr6I) (1975), Janet Jackson sampled the first track [here](https://www.youtube.com/watch?v=g_GpU5agvYQ)
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
