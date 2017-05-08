@@ -35,6 +35,9 @@ Keith Jarrett - [Liza - George Gershwin](https://www.youtube.com/watch?v=jD2a3mo
 # Mix
 Starfunkel - [A mixtape from Ghana](https://www.youtube.com/watch?v=ITurXyhdQxY)
 
+# Rap
+Mos Def - [Umi says](https://www.youtube.com/watch?v=Pyp3vha8PNw)
+
 # Single Tracks 
 Swing Slow - [Yuki-ya-konko](https://www.youtube.com/watch?v=mPsJXfB7yTk), album [here](https://www.youtube.com/watch?v=06HcFuiHWZ4)
 
