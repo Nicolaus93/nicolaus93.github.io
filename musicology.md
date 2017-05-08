@@ -35,3 +35,5 @@ Starfunkel - [A mixtape from Ghana](https://www.youtube.com/watch?v=ITurXyhdQxY)
 
 # Single Tracks 
 Swing Slow - [Yuki-ya-konko](https://www.youtube.com/watch?v=mPsJXfB7yTk), album [here](https://www.youtube.com/watch?v=06HcFuiHWZ4)
+
+Urszula Dudziak - [Kasia's Dance](https://www.youtube.com/watch?v=12ptpdfTMF8), with Marcus Miller on bass and Kenny Kirkland on keyboards
