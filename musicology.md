@@ -21,7 +21,8 @@ Herbie Hancock - [Truth](https://www.youtube.com/watch?v=hShkZ-Q4qzQ) (1974), [h
 
 Herbie Hancock - [Man Child](https://www.youtube.com/watch?v=TikRSpQDr6I) (1975), Janet Jackson sampled "Hang up your hang ups" (first track) [here](https://www.youtube.com/watch?v=g_GpU5agvYQ)
 
- 
+Hawk on Flight - [In Time For Hawk On Flight]-(https://open.spotify.com/album/5rYU0bnRczczp2UkL1Wcyv) (1979), Ulf Wakenius on guitar
+
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
