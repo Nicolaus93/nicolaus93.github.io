@@ -8,6 +8,7 @@ Some notes about the music I like!
 
 # Brazilian
 Azimuth - [LP Azimuth](https://www.youtube.com/watch?v=m6PxI_-MowE)
+Edu Lobo - [Vento Bravo](https://www.youtube.com/watch?v=c04G0xVuxOk)
 
 # Japan
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
