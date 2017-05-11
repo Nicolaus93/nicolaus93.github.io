@@ -15,6 +15,12 @@ Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY
 
 Japanese Citypop - [Funk Summer Chill MIX](https://www.youtube.com/watch?v=VRXG0TrgOSY&t=1741s)
 
+Ryo Fukui - [Scenery](https://www.youtube.com/watch?v=Hrr3dp7zRQY) (1976)
+
+Ryo Kawasaki - [Juice](https://www.youtube.com/watch?v=bdQ7437z0A4)
+
+Akira Onozuka - [Rera](https://www.youtube.com/watch?v=O_h9nd6im-I)
+
 # Fusion
 Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
 
