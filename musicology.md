@@ -9,6 +9,8 @@ Some notes about the music I like!
 # Brazilian
 Azimuth - [LP Azimuth](https://www.youtube.com/watch?v=m6PxI_-MowE)
 
+Azimuth - [Águia Não Come Mosca](https://www.youtube.com/watch?v=HADCBUVaFqw) (1977)
+
 Edu Lobo - [Missa Breve](https://www.youtube.com/watch?v=RaFavdaZisM) (1973), first track and last one are great!
 
 # Japan
