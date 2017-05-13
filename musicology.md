@@ -13,6 +13,8 @@ Azimuth - [Águia Não Come Mosca](https://www.youtube.com/watch?v=HADCBUVaFqw) 
 
 Edu Lobo - [Missa Breve](https://www.youtube.com/watch?v=RaFavdaZisM) (1973), first track and last one are great!
 
+Banda Black Rio - [Maria Fumaça](https://www.youtube.com/watch?v=O6RQnyDS9xg) (1977)
+
 # Japan
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
