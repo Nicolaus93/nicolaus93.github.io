@@ -17,6 +17,8 @@ Banda Black Rio - [Maria Fumaça](https://www.youtube.com/watch?v=O6RQnyDS9xg) (
 
 Rabo De Saia - [Ripa na Xulipa](https://www.youtube.com/watch?v=61QzoFaYDQY)
 
+João Donato - [Donato Elétrico](https://www.youtube.com/watch?v=SGK4BpUBAnY) (2016)
+
 # Japan
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
