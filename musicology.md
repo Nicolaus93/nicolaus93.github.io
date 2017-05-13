@@ -15,6 +15,8 @@ Edu Lobo - [Missa Breve](https://www.youtube.com/watch?v=RaFavdaZisM) (1973), fi
 
 Banda Black Rio - [Maria Fumaça](https://www.youtube.com/watch?v=O6RQnyDS9xg) (1977)
 
+Rabo De Saia - [Ripa na Xulipa](https://www.youtube.com/watch?v=61QzoFaYDQY)
+
 # Japan
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
