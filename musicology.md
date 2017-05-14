@@ -30,6 +30,8 @@ Ryo Kawasaki - [Juice](https://www.youtube.com/watch?v=bdQ7437z0A4)
 
 Akira Onozuka - [Rera](https://www.youtube.com/watch?v=O_h9nd6im-I)
 
+Haruomi Hosono - [Cochin Moon](https://www.youtube.com/watch?v=iM_9aalKOQk) (1978)
+
 Yellow Magic Orchestra - [Technodelic](https://www.youtube.com/watch?v=XeVO5_qoyfY)  (1981)
 
 Haruomi Hosono - [Omni Sight Seeing](https://www.youtube.com/watch?v=-22NysUDulc&t=291s) (1989)
