@@ -30,6 +30,8 @@ Ryo Kawasaki - [Juice](https://www.youtube.com/watch?v=bdQ7437z0A4)
 
 Akira Onozuka - [Rera](https://www.youtube.com/watch?v=O_h9nd6im-I)
 
+Yellow Magic Orchestra - [Technodelic](https://www.youtube.com/watch?v=XeVO5_qoyfY)  (1981)
+
 # Fusion
 Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
 
