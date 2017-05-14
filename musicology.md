@@ -19,7 +19,7 @@ Rabo De Saia - [Ripa na Xulipa](https://www.youtube.com/watch?v=61QzoFaYDQY)
 
 João Donato - [Donato Elétrico](https://www.youtube.com/watch?v=SGK4BpUBAnY) (2016)
 
-# Japan
+# Japanese
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
 Japanese Citypop - [Funk Summer Chill MIX](https://www.youtube.com/watch?v=VRXG0TrgOSY&t=1741s)
@@ -31,6 +31,8 @@ Ryo Kawasaki - [Juice](https://www.youtube.com/watch?v=bdQ7437z0A4)
 Akira Onozuka - [Rera](https://www.youtube.com/watch?v=O_h9nd6im-I)
 
 Yellow Magic Orchestra - [Technodelic](https://www.youtube.com/watch?v=XeVO5_qoyfY)  (1981)
+
+Haruomi Hosono - [Omni Sight Seeing](https://www.youtube.com/watch?v=-22NysUDulc&t=291s) (1989)
 
 # Fusion
 Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
