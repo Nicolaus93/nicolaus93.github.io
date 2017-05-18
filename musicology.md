@@ -45,6 +45,10 @@ Herbie Hancock - [Man Child](https://www.youtube.com/watch?v=TikRSpQDr6I) (1975)
 
 Hawk on Flight - [In Time For Hawk On Flight](https://open.spotify.com/album/5rYU0bnRczczp2UkL1Wcyv) (1979), Ulf Wakenius on guitar
 
+# Jazz
+
+Brad Mehldau, Mark Turner & Peter bernstein - [Belief](https://www.youtube.com/watch?v=xhiVB5SBvHs), album: Consenting Adults
+
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
