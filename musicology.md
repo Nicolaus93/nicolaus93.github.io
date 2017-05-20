@@ -49,6 +49,8 @@ Hawk on Flight - [In Time For Hawk On Flight](https://open.spotify.com/album/5rY
 
 Jorge Dalto - [Chevere](https://www.youtube.com/watch?v=Yni3GOQJ1UA) (1976)
 
+Yellowjackets - [Top Secret](https://www.youtube.com/watch?v=Aej5YiWW4Q8) (1983), album: Mirage A Trois
+
 # Jazz
 
 Brad Mehldau, Mark Turner & Peter bernstein - [Belief](https://www.youtube.com/watch?v=xhiVB5SBvHs), album: Consenting Adults
