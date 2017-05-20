@@ -19,6 +19,8 @@ Rabo De Saia - [Ripa na Xulipa](https://www.youtube.com/watch?v=61QzoFaYDQY)
 
 João Donato - [Donato Elétrico](https://www.youtube.com/watch?v=SGK4BpUBAnY) (2016)
 
+Eumir Deodato - [Univac loves you](https://www.youtube.com/watch?v=2QVdJ43VK_Q) (1976), album [Very Together](https://www.youtube.com/watch?v=MeAM0tvEg-s&t=30s)
+
 # Japanese
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
