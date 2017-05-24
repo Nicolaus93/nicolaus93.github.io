@@ -75,3 +75,5 @@ Mos Def - [Umi says](https://www.youtube.com/watch?v=Pyp3vha8PNw)
 Swing Slow - [Yuki-ya-konko](https://www.youtube.com/watch?v=mPsJXfB7yTk), album [here](https://www.youtube.com/watch?v=06HcFuiHWZ4)
 
 Urszula Dudziak - [Kasia's Dance](https://www.youtube.com/watch?v=12ptpdfTMF8), with Marcus Miller on bass and Kenny Kirkland on keyboards
+
+Rare Silk - [Storm](https://www.youtube.com/watch?v=AQZESJ2Pga8) (1985)
