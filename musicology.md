@@ -71,7 +71,7 @@ Starfunkel - [A mixtape from Ghana](https://www.youtube.com/watch?v=ITurXyhdQxY)
 # Rap
 Mos Def - [Umi says](https://www.youtube.com/watch?v=Pyp3vha8PNw)
 
-# Funky 
+# Funky
 Parliament Funkadelic - [Greatest Hits](https://www.youtube.com/watch?v=WPOexuFLJ8c)
 
 James Brown - [In the Jungle Groove](https://www.youtube.com/watch?v=eHG1z6fvX8o) (1986)
