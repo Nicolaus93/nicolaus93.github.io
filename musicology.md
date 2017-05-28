@@ -82,3 +82,5 @@ Swing Slow - [Yuki-ya-konko](https://www.youtube.com/watch?v=mPsJXfB7yTk), album
 Urszula Dudziak - [Kasia's Dance](https://www.youtube.com/watch?v=12ptpdfTMF8), with Marcus Miller on bass and Kenny Kirkland on keyboards
 
 Rare Silk - [Storm](https://www.youtube.com/watch?v=AQZESJ2Pga8) (1985)
+
+Yuji Toriyama - [Maze](https://www.youtube.com/watch?v=VkNvRqAMbMw), Pat Metheny style
