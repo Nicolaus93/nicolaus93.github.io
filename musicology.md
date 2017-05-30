@@ -57,6 +57,7 @@ Wayne Shorter - [Native Dancer](https://www.youtube.com/watch?v=GTAIjxoSKLk) (19
 
 Brad Mehldau, Mark Turner & Peter bernstein - [Belief](https://www.youtube.com/watch?v=xhiVB5SBvHs), album: Consenting Adults
 
+Takuya Kuroda - [Zigzagger](https://www.youtube.com/watch?v=H5tr4cgCHfY)
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
