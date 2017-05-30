@@ -53,11 +53,14 @@ Yellowjackets - [Top Secret](https://www.youtube.com/watch?v=Aej5YiWW4Q8) (1983)
 
 Wayne Shorter - [Native Dancer](https://www.youtube.com/watch?v=GTAIjxoSKLk) (1974), this one could fit Brazilian as well
 
+Yussef Kamaal - [Black Focus](https://www.youtube.com/watch?v=4D8YPDdsxYU)
+
 # Jazz
 
 Brad Mehldau, Mark Turner & Peter bernstein - [Belief](https://www.youtube.com/watch?v=xhiVB5SBvHs), album: Consenting Adults
 
 Takuya Kuroda - [Zigzagger](https://www.youtube.com/watch?v=H5tr4cgCHfY)
+
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
