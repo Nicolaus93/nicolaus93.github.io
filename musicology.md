@@ -82,9 +82,9 @@ Parliament Funkadelic - [Greatest Hits](https://www.youtube.com/watch?v=WPOexuFL
 
 James Brown - [In the Jungle Groove](https://www.youtube.com/watch?v=eHG1z6fvX8o) (1986)
 
-## MMMM
+## mmmm
 
-Moondog - [The German Years 1977-1999]https://www.youtube.com/watch?v=3AdPl5xIAvE
+Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
 
 # Single Tracks 
 Swing Slow - [Yuki-ya-konko](https://www.youtube.com/watch?v=mPsJXfB7yTk), album [here](https://www.youtube.com/watch?v=06HcFuiHWZ4)
