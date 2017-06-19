@@ -53,10 +53,6 @@ Yellowjackets - [Top Secret](https://www.youtube.com/watch?v=Aej5YiWW4Q8) (1983)
 
 Wayne Shorter - [Native Dancer](https://www.youtube.com/watch?v=GTAIjxoSKLk) (1974), this one could fit Brazilian as well
 
-Yussef Kamaal - [Black Focus](https://www.youtube.com/watch?v=4D8YPDdsxYU)
-
-Alfa Mist - [Antiphon](https://www.youtube.com/watch?v=BVO_R8uvMhE)
-
 # Jazz
 
 Brad Mehldau, Mark Turner & Peter bernstein - [Belief](https://www.youtube.com/watch?v=xhiVB5SBvHs), album: Consenting Adults
@@ -86,11 +82,11 @@ James Brown - [In the Jungle Groove](https://www.youtube.com/watch?v=eHG1z6fvX8o
 
 Maurice Brown - [The mood](https://www.youtube.com/watch?v=f39Uqx6efek)
 
-Alfa Mist - []
-
 Moonchild - [Voyager]
 
-Yussef Kamaal - []
+Yussef Kamaal - [Black Focus](https://www.youtube.com/watch?v=4D8YPDdsxYU)
+
+Alfa Mist - [Antiphon](https://www.youtube.com/watch?v=BVO_R8uvMhE)
 
 BadBadNotGood - []
 
