@@ -90,6 +90,14 @@ Alfa Mist - []
 
 Moonchild - [Voyager]
 
+Yussef Kamaal - []
+
+BadBadNotGood - []
+
+Max Graef - []
+
+Floating Points - []
+
 ## mmmm
 
 Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
