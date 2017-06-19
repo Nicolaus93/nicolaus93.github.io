@@ -82,6 +82,14 @@ Parliament Funkadelic - [Greatest Hits](https://www.youtube.com/watch?v=WPOexuFL
 
 James Brown - [In the Jungle Groove](https://www.youtube.com/watch?v=eHG1z6fvX8o) (1986)
 
+# Contemporary
+
+Maurice Brown - [The mood](https://www.youtube.com/watch?v=f39Uqx6efek)
+
+Alfa Mist - []
+
+Moonchild - [Voyager]
+
 ## mmmm
 
 Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
