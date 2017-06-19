@@ -59,6 +59,7 @@ Brad Mehldau, Mark Turner & Peter bernstein - [Belief](https://www.youtube.com/w
 
 Takuya Kuroda - [Zigzagger](https://www.youtube.com/watch?v=H5tr4cgCHfY)
 
+Takuya Kuroda - [Rising son](https://www.youtube.com/watch?v=spH_3GV6YsY)
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
