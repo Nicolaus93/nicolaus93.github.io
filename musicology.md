@@ -98,6 +98,8 @@ Max Graef - []
 
 Floating Points - []
 
+Christian Scott - [Stretch Music](https://www.youtube.com/watch?v=fuGc7YvQzeM)
+
 ## mmmm
 
 Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
