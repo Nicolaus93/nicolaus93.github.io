@@ -89,6 +89,8 @@ Yussef Kamaal - [Black Focus](https://www.youtube.com/watch?v=4D8YPDdsxYU)
 
 Alfa Mist - [Antiphon](https://www.youtube.com/watch?v=BVO_R8uvMhE)
 
+Anderson .Paak - [Malibu](https://www.youtube.com/watch?v=IROfKBoVtTg)
+
 BadBadNotGood - []
 
 Max Graef - []
