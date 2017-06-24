@@ -74,6 +74,8 @@ Starfunkel - [A mixtape from Ghana](https://www.youtube.com/watch?v=ITurXyhdQxY)
 # Rap
 Mos Def - [Umi says](https://www.youtube.com/watch?v=Pyp3vha8PNw)
 
+Funky Pushertz - [Lunch](https://www.youtube.com/watch?v=KJwRqBS5ZvA)
+
 # Funky
 Parliament Funkadelic - [Greatest Hits](https://www.youtube.com/watch?v=WPOexuFLJ8c)
 
