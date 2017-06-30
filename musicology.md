@@ -107,6 +107,8 @@ Christian Scott - [Stretch Music](https://www.youtube.com/watch?v=fuGc7YvQzeM)
 
 Hiatus Kaiyote - [Choose your weapon](https://www.youtube.com/watch?v=9k2KIocsdEQ)
 
+Tacuma Bradley's Unity Band - [Joint Effort](https://www.youtube.com/watch?v=EFDXHrGGdS4&t=2307s)
+
 ## mmmm
 
 Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
