@@ -21,6 +21,8 @@ João Donato - [Donato Elétrico](https://www.youtube.com/watch?v=SGK4BpUBAnY) (
 
 Eumir Deodato - [Univac loves you](https://www.youtube.com/watch?v=2QVdJ43VK_Q) (1976), album [Very Together](https://www.youtube.com/watch?v=MeAM0tvEg-s&t=30s)
 
+João Donato - [Quem é Quem](https://www.youtube.com/watch?v=1jcnsaXnTRk) (1973)
+
 # Japanese
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
