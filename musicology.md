@@ -23,6 +23,8 @@ Eumir Deodato - [Univac loves you](https://www.youtube.com/watch?v=2QVdJ43VK_Q) 
 
 João Donato - [Quem é Quem](https://www.youtube.com/watch?v=1jcnsaXnTRk) (1973)
 
+[Aquarius](https://www.youtube.com/watch?v=qk9Hlyl2h-U) (1976) LP
+
 # Japanese
 Haruomi Hosono & Friends - [Pacific](https://www.youtube.com/watch?v=dSCwoYcp0IY) (1978)
 
