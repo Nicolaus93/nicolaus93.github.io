@@ -89,6 +89,8 @@ Parliament Funkadelic - [Greatest Hits](https://www.youtube.com/watch?v=WPOexuFL
 
 James Brown - [In the Jungle Groove](https://www.youtube.com/watch?v=eHG1z6fvX8o) (1986)
 
+Grant Green - [The main attraction](https://www.youtube.com/watch?v=Qq1wJka_saA) (1976)
+
 # Contemporary
 
 Maurice Brown - [The mood](https://www.youtube.com/watch?v=f39Uqx6efek)
