@@ -117,6 +117,12 @@ Hiatus Kaiyote - [Choose your weapon](https://www.youtube.com/watch?v=9k2KIocsdE
 
 Tacuma Bradley's Unity Band - [Joint Effort](https://www.youtube.com/watch?v=EFDXHrGGdS4&t=2307s)
 
+# Rock
+
+Courtney Barnett - [Sometimes I Sit And Think, And Sometimes I Just Sit](https://www.youtube.com/watch?v=k2sW53Hjo30)
+
+Mac De Marco - [Salad Days](https://www.youtube.com/watch?v=0HQqXllXpfQ)
+
 ## mmmm
 
 Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
