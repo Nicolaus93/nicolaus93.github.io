@@ -125,6 +125,8 @@ Mac De Marco - [Salad Days](https://www.youtube.com/watch?v=0HQqXllXpfQ)
 
 Yellow Days - [Harmless Melodies](https://www.youtube.com/watch?v=AejUtBNzyOI)
 
+Glue Trip - [Glue Trip](https://www.youtube.com/watch?v=NwnV7-Y8gYU)
+
 ## mmmm
 
 Moondog - [The German Years 1977-1999](https://www.youtube.com/watch?v=3AdPl5xIAvE)
