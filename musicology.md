@@ -142,6 +142,8 @@ Yuji Toriyama - [Maze](https://www.youtube.com/watch?v=VkNvRqAMbMw), Pat Metheny
 
 Cozy Powell - [Dance with the devil](https://www.youtube.com/watch?v=IYB7lD6chwc)
 
+Andrea True Connections - [True True True](https://www.youtube.com/watch?v=RlJGrIyt-X8)
+
 # Various
 
 Nicolas Jaar - [Boiler Room Tv](https://boilerroom.tv/recording/transition/?utm_source=facebook.com&utm_medium=referral)
