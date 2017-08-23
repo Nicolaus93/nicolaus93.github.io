@@ -140,6 +140,8 @@ Rare Silk - [Storm](https://www.youtube.com/watch?v=AQZESJ2Pga8) (1985)
 
 Yuji Toriyama - [Maze](https://www.youtube.com/watch?v=VkNvRqAMbMw), Pat Metheny style
 
+Cozy Powell - [Dance with the devil](https://www.youtube.com/watch?v=IYB7lD6chwc)
+
 # Various
 
 Nicolas Jaar - [Boiler Room Tv](https://boilerroom.tv/recording/transition/?utm_source=facebook.com&utm_medium=referral)
