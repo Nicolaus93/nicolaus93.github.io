@@ -44,6 +44,10 @@ Haruomi Hosono - [Omni Sight Seeing](https://www.youtube.com/watch?v=-22NysUDulc
 
 [Best of Japanese jazz fusion compilation 1](https://www.youtube.com/watch?v=zvoNHP5yIu4)
 
+# Italiana
+
+Lucio Battisti - [Prendila così](https://www.youtube.com/watch?v=ND0RtdvZZ_U)
+
 # Fusion
 Herbie Hancock - [Secrets](https://www.youtube.com/watch?v=gMdJzUVHRwU)
 
