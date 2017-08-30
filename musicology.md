@@ -42,6 +42,8 @@ Yellow Magic Orchestra - [Technodelic](https://www.youtube.com/watch?v=XeVO5_qoy
 
 Haruomi Hosono - [Omni Sight Seeing](https://www.youtube.com/watch?v=-22NysUDulc&t=291s) (1989)
 
+T Square - [Lucky Summer Lady](https://www.youtube.com/watch?v=T8Wsy8oF9UA) (1978)
+
 [Best of Japanese jazz fusion compilation 1](https://www.youtube.com/watch?v=zvoNHP5yIu4)
 
 # Italiana
