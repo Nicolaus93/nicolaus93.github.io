@@ -150,7 +150,7 @@ Yuji Toriyama - [Maze](https://www.youtube.com/watch?v=VkNvRqAMbMw), Pat Metheny
 
 Cozy Powell - [Dance with the devil](https://www.youtube.com/watch?v=IYB7lD6chwc)
 
-Andrea True Connections - [True True True](https://www.youtube.com/watch?v=RlJGrIyt-X8)
+Andrea True Connections - [More, more, more](https://www.youtube.com/watch?v=RlJGrIyt-X8)
 
 Todd Terje - [Ragysh](https://www.youtube.com/watch?v=1DwUYCrY1_0)
 
