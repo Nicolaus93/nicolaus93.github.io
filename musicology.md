@@ -77,6 +77,8 @@ Takuya Kuroda - [Rising son](https://www.youtube.com/watch?v=spH_3GV6YsY)
 
 Phineas Newborn Jr. - [Here's Phineas](https://www.youtube.com/watch?v=U-gfm81dDgA)
 
+Wayne Shorter - [Introducing Wayne Shorter](https://www.youtube.com/watch?v=mfNcmBoqD70)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
