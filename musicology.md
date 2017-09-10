@@ -79,6 +79,8 @@ Phineas Newborn Jr. - [Here's Phineas](https://www.youtube.com/watch?v=U-gfm81dD
 
 Wayne Shorter - [Introducing Wayne Shorter](https://www.youtube.com/watch?v=mfNcmBoqD70)
 
+Cannonball Adderley and Milt Jackson - [Thing are getting better](https://www.youtube.com/watch?v=MA9SgwdHon0)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
