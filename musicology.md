@@ -88,6 +88,8 @@ Joey Defrancesco - [Tutu - Miles Davis](https://www.youtube.com/watch?v=7KdZPFyX
 
 Keith Jarrett - [Liza - George Gershwin](https://www.youtube.com/watch?v=jD2a3mo8z5M) (21 yo)
 
+Chris Potter - [Bo](https://www.youtube.com/watch?v=wLBTWzR2rQQ&feature=youtu.be) (16 yo)
+
 # Mix
 Starfunkel - [A mixtape from Ghana](https://www.youtube.com/watch?v=ITurXyhdQxY)
 
