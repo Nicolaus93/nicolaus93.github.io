@@ -44,6 +44,8 @@ Haruomi Hosono - [Omni Sight Seeing](https://www.youtube.com/watch?v=-22NysUDulc
 
 T Square - [Lucky Summer Lady](https://www.youtube.com/watch?v=T8Wsy8oF9UA) (1978)
 
+Casiopea - [Casiopea](https://www.youtube.com/watch?v=vKOekWuzk3o) (1979)
+
 [Best of Japanese jazz fusion compilation 1](https://www.youtube.com/watch?v=zvoNHP5yIu4)
 
 # Italiana
