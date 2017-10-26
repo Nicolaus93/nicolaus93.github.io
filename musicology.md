@@ -133,6 +133,8 @@ Hiatus Kaiyote - [Choose your weapon](https://www.youtube.com/watch?v=9k2KIocsdE
 
 Tacuma Bradley's Unity Band - [Joint Effort](https://www.youtube.com/watch?v=EFDXHrGGdS4&t=2307s)
 
+Mr Jukes - God First [https://www.youtube.com/watch?v=oDVrAls0P0E&t=1s]
+
 # Rock
 
 Courtney Barnett - [Sometimes I Sit And Think, And Sometimes I Just Sit](https://www.youtube.com/watch?v=k2sW53Hjo30)
