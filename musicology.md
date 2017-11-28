@@ -46,6 +46,8 @@ T Square - [Lucky Summer Lady](https://www.youtube.com/watch?v=T8Wsy8oF9UA) (197
 
 Casiopea - [Casiopea](https://www.youtube.com/watch?v=vKOekWuzk3o) (1979)
 
+Himiko Kikuchi - [Flying Beagle](https://www.youtube.com/watch?v=zCSvGZiN784&t=2178s)
+
 [Best of Japanese jazz fusion compilation 1](https://www.youtube.com/watch?v=zvoNHP5yIu4)
 
 # Italiana
