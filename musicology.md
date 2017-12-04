@@ -69,6 +69,8 @@ Yellowjackets - [Top Secret](https://www.youtube.com/watch?v=Aej5YiWW4Q8) (1983)
 
 Wayne Shorter - [Native Dancer](https://www.youtube.com/watch?v=GTAIjxoSKLk) (1974), this one could fit Brazilian as well
 
+Idris Muhammad - [Power of Soul](https://www.youtube.com/watch?v=0mEGcz_n5OU) (1974)
+
 RH Factor - [Hard Groove](https://www.youtube.com/watch?v=ZjrI16qeE_A) (2003)
 
 # Jazz
