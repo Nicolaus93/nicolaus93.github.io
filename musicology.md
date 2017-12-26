@@ -115,6 +115,8 @@ James Brown - [In the Jungle Groove](https://www.youtube.com/watch?v=eHG1z6fvX8o
 
 Grant Green - [The main attraction](https://www.youtube.com/watch?v=Qq1wJka_saA) (1976)
 
+Average White Band - [Pick up the pieces](https://www.youtube.com/watch?v=5gO1ys2AiNM) (1974)
+
 # Contemporary
 
 Maurice Brown - [The mood](https://www.youtube.com/watch?v=f39Uqx6efek)
