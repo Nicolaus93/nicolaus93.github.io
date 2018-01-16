@@ -5,7 +5,7 @@ title: Member Variance?
 
 Variance? Whaaaat?
 
-Everybody knows that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)]$, where $\mu=\mathrm{E}[X]$. However, how can we estimate the variance related to some population?
+Everybody knows (hopefully) that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)]$, where $\mu=\mathrm{E}[X]$. However, how can we estimate the variance related to some population?
 
 <dl>
   <div class="image-wrapper" >
