@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello again!
+title: Stochastic bandits lower bound.
 ---
 
 Hello World!
