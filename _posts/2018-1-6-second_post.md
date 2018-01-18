@@ -21,7 +21,7 @@ $$ \text{kl}(\mu_2, \mu_2') \leq (1 + \varepsilon)\text{kl}(\mu_2, \mu_1) $$
 
 We want to have a lower bound on the number of times the optimal arm is played..
 
-If we denote by $X_{2, 1}, \ldots, X_{2, n}$ the sequence of random variables obtained when pulling arm 2 $n$ times, then we can define the empirical estimate of the kl(\mu_2, \mu_2') at time $n$  as follows:
+If we denote by $X_{2, 1}, \ldots, X_{2, n}$ the sequence of random variables obtained when pulling arm 2 $n$ times, then we can define the empirical estimate of the $\text{kl}(\mu_2, \mu_2')$ at time $n$  as follows:
 
 $$ \hat{\text{kl}}_s = \sum_{t=1}^s \ln \frac{\mu_2 X_{2,t} + (1-\mu_2)(1-X_{2,t})}{\mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})} $$
 
