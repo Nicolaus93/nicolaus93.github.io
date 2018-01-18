@@ -33,7 +33,15 @@ $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] $$
 
 We can indeed write the probability $P_2(\omega)$ of any individual bit sequence (remind that the samples of a Bernoulli distribution are either 0 or 1) $\omega$ as $P_1(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}_{T_2(n)}$. To see this, notice that:
 
-$$\exp(-\hat{\text{kl}_m}) = \exp{-\sum_m \ln(\ldots)} = \exp{-\ln(g(X_{2,1}))} \cdot \ldots \cdot \exp(-\ln(g(X_{2,m}} $$
+$$ \begin{align} & \sum_{i=1}^n (X_i -\mu)^2 + \sum_{i=1}^n (\bar{X}_n -\mu)^2 - 2(\bar{X}n - \mu)\sum{i=1}^n(X_i - \mu) = \
+
+& = \sum_{i=1}^n (X_i -\mu)^2 + n (\bar{X}_n -\mu)^2 - 2n (\bar{X}_n -\mu)^2 = \
+
+& = \sum_{i=1}^n (X_i -\mu)^2 - n (\bar{X}_n -\mu)^2 \end{align} $$
+
+$$ \begin{align} \exp(-\hat{\text{kl}_m}) & = \exp{-\sum_m \ln(\ldots)} = \ 
+ & = \exp{-\ln(g(X_{2,1}))} \cdot \ldots \cdot \exp(-\ln(g(X_{2,m}} \ 
+ & = \end{align} $$
 
 **2. \mathbb{P}(C_n) = o(1)**
 
