@@ -31,3 +31,7 @@ Another important property is the following: for any event $A$ in the $\sigma$-a
 
 $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp -\hat{text{kl}}_{T_2(n)}] $$
 
+**2. \mathbb{P}(C_n) = o(1)**
+
+**3. \mathbb{P}(T_2(n) < f_n) = o(1)**
+
