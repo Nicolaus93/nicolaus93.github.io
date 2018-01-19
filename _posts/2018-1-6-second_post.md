@@ -31,7 +31,7 @@ Another important property is the following: for any event $A$ in the $\sigma$-a
 
 $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] $$
 
-We can indeed write the probability $P_2(\omega)$ of any individual bit sequence $\omega$ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $P_1(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
+We can indeed write the probability $\mathbb{P}'2(\omega)$ of any individual bit sequence $\omega$ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $P_1(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
 
 
 $$ \begin{align}
@@ -40,7 +40,7 @@ $$ \begin{align}
              & = \prod_{t=1}^m \frac{\mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})}{\mu_2 X_{2,t} + (1-\mu_2)(1-X_{2,t})}
 \end{align} $$
 
-**2. \mathbb{P}(C_n) = o(1)**
+**2. $\mathbb{P}(C_n) = o(1)$ **
 
-**3. \mathbb{P}(T_2(n) < f_n) = o(1)**
+**3. $\mathbb{P}(T_2(n) < f_n) = o(1) $ **
 
