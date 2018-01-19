@@ -40,7 +40,13 @@ $$ \begin{align}
              & = \prod_{t=1}^m \frac{\mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})}{\mu_2 X_{2,t} + (1-\mu_2)(1-X_{2,t})}
 \end{align} $$
 
-$$ \mathbf{2. \mathbb{P}(C_n) = o(1)} $$
+We finally define the event:
+
+$$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \quad \text{and} \quad \hat{\text{kl}_{T_2(n)}} \leq \big(1 - \frac{\varepsilon}{2} \ln(n) \Big\}
+
+$ \mathbf{2. \mathbb{P}(C_n) = o(1)} $
+
+
 
 $$ \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $$
 
