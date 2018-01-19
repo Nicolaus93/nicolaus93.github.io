@@ -40,6 +40,15 @@ $$ \begin{align}
              & = \prod_{t=1}^m \frac{\mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})}{\mu_2 X_{2,t} + (1-\mu_2)(1-X_{2,t})}
 \end{align} $$
 
+Thus: 
+
+$$ \begin{align}
+ \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] & = \sum_{\omega \in A} \mathbb{P}(\omega)f(\omega) \\
+  & = \sum_{\omega \in A} \prod_{X_2} \mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})} \\
+  & = \mathbb{P}'(A)
+\end{align}
+ 
+
 We finally define the event:
 
 $$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \quad \text{and} \quad \hat{\text{kl}_{T_2(n)}} \leq \Big(1 - \frac{\varepsilon}{2} \Big) \ln(n) \Big\} $$
