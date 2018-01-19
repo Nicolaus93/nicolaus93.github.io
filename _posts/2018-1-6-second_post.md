@@ -46,7 +46,5 @@ $$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n)
 
 $ \mathbf{2. \mathbb{P}(C_n) = o(1)} $
 
-
-
-$$ \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $$
+$ \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $
 
