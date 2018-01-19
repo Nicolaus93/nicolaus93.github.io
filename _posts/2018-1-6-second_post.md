@@ -36,15 +36,9 @@ We can indeed write the probability $P_2(\omega)$ of any individual bit sequence
 
 $$ \begin{align}
  \exp(-\hat{\text{kl}}_m) & = \exp(-\sum_m \ln(\dots)) \\
-             & = \exp(-\ln(g(X_{2,1}))) \\
+             & = \exp(-\ln(g(X_{2,1}))) \ldots \exp(-\ln(g(X_{2,m})) \\
              & = 1
 \end{align} $$
-
-\begin{align} 
- \exp(-\hat{\text{kl}}_m) &= \exp(-\sum_m \ln(\ldots)) = \\\\
- &= \exp(-\ln(g(X_{2,1}))) \cdot \ldots \cdot \exp(-\ln(g(X_{2,m}) \\\\
- &= 1 
-\end{align}
 
 **2. \mathbb{P}(C_n) = o(1)**
 
