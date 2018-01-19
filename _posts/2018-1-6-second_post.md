@@ -31,6 +31,8 @@ Another important property is the following: for any event $A$ in the $\sigma$-a
 
 $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] $$
 
+\begin{align} A & = B \\\\ & = C \end{align}
+
 We can indeed write the probability $P_2(\omega)$ of any individual bit sequence $\omega$ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $P_1(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
 
 \begin{align} 
