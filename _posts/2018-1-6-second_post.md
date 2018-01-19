@@ -35,9 +35,16 @@ $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] $$
 
 We can indeed write the probability $P_2(\omega)$ of any individual bit sequence $\omega$ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $P_1(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
 
+
+\begin{align}
+ \exp(-kl_m) & = \exp(-\sum_m \ln(\dots)) \\\\
+             & = \exp(-\ln(g(X_{2,1}))) \\\\
+             & = 1
+\end{align}
+
 \begin{align} 
  \exp(-\hat{\text{kl}}_m) &= \exp(-\sum_m \ln(\ldots)) = \\\\
- &= \exp(-\ln(g(X_{2,1}))} \cdot \ldots \cdot \exp(-\ln(g(X_{2,m}) \\\\
+ &= \exp(-\ln(g(X_{2,1}))) \cdot \ldots \cdot \exp(-\ln(g(X_{2,m}) \\\\
  &= 1 
 \end{align}
 
