@@ -31,7 +31,7 @@ Another important property is the following: for any event $A$ in the $\sigma$-a
 
 $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] $$
 
-We can indeed write the probability $\mathbb{P}_2'(\omega)_ $ of any individual bit sequence $\omega$ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $\mathbb{P}(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
+We can indeed write the probability $ \mathbb{P}'(\omega) $ of any individual bit sequence $ \omega $ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $\mathbb{P}(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
 
 
 $$ \begin{align}
@@ -42,9 +42,8 @@ $$ \begin{align}
 
 We finally define the event:
 
-$$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \quad \text{and} \quad \hat{\text{kl}_{T_2(n)}} \leq \big(1 - \frac{\varepsilon}{2} \ln(n) \Big\} $$
+$$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \quad \text{and} \quad \hat{\text{kl}_{T_2(n)}} \leq \Big(1 - \frac{\varepsilon}{2} \Big) \ln(n) \Big\} $$
 
 $ \mathbf{2. \mathbb{P}(C_n) = o(1)} $
 
 $ \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $
-
