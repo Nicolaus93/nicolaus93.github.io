@@ -58,8 +58,8 @@ $ \mathbf{2. \quad \mathbb{P}(C_n) = o(1)} $
 Combining the previous 2 equations, we get the following:
 
 $$ \begin{align} 
-      \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}\_{C_n} \exp(-\hat{text{kl}}\_{T_2(n)}) \Big] \newline
-                       & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2)} \Big] \newline
+      \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}\_{C_n} \exp(-\hat{\text{kl}}\_{T_2(n)}) \Big] \newline
+                       & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2)} \ln(n)} \mathbb{1}\_{C_n}} \Big] \newline
    \end{align} $$
 
 Where we used the fact that the expected value of the indicator function is indeed a probability.
