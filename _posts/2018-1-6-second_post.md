@@ -34,20 +34,23 @@ $$ \mathbb{P}'(A) = \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] $$
 We can indeed write the probability $ \mathbb{P}'(\omega) $ of any individual bit sequence $ \omega $ (remind that the samples of a Bernoulli distribution are either 0 or 1) as $\mathbb{P}(\omega)f(\omega)$, where by definition, $f(\omega) = \exp(-\hat{\text{kl}}_{T_2(n)})$. To see this, notice that:
 
 
-$$ \begin{align}
+$$ 
+\begin{align}
  \exp(-\hat{\text{kl}}_m) & = \exp(-\sum_m \ln(\dots)) \\
              & = \exp(-\ln(g(X_{2,1}))) \ldots \exp(-\ln(g(X_{2,m})) \\
              & = \prod_{t=1}^m \frac{\mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})}{\mu_2 X_{2,t} + (1-\mu_2)(1-X_{2,t})}
-\end{align} $$
+\end{align} 
+$$
 
 Thus: 
 
-$$ \begin{align}
- \mathbb{E}[\mathbb{1}\_A \exp(-\hat{\text{kl}}\_{T_2(n)})] & = 
-\sum_{\omega \in A} \mathbb{P}(\omega)f(\omega) \newline
-  & = \sum_{\omega \in A} \prod_{X_2} \mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})} \newline
-  & = \mathbb{P}'(A)
-\end{align} $$
+$$ 
+\begin{align}
+ \mathbb{E}[\mathbb{1}\_A \exp(-\hat{\text{kl}}\_{T_2(n)})] & = \sum_{\omega \in A} \mathbb{P}(\omega)f(\omega) \newline
+    & = \sum_{\omega \in A} \prod_{X_2} \mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})} \newline
+    & = \mathbb{P}'(A)
+\end{align} 
+$$
 
 We finally define the event:
 
@@ -57,10 +60,12 @@ $ \mathbf{2. \quad \mathbb{P}(C_n) = o(1)} $
 
 Combining the previous 2 equations, we get the following:
 
-$$ \begin{align} 
+$$ 
+\begin{align} 
       \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}\_{C_n} \exp(-\hat{\text{kl}}\_{T_2(n)}) \Big] \newline
                        & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2)} }  \Big] 
-   \end{align} $$
+   \end{align} 
+$$
 
 $$ \mathbb{E} \Big[\mathbb{1}\_{C_n} \exp(-\hat{\text{kl}}\_{T_2(n)}) \Big] $$
 
