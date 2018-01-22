@@ -54,7 +54,7 @@ We finally define the event:
 
 $$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \quad \text{and} \quad \hat{\text{kl}_{T_2(n)}} \leq \Big(1 - \frac{\varepsilon}{2} \Big) \ln(n) \Big\} $$
 
-$ \mathbf{2. \mathbb{P}(C_n) = o(1)} $
+$ \qquad \mathbf{2. \mathbb{P}(C_n) = o(1)} $
 
 Combining the previous 2 equations, we get the following:
 
@@ -62,6 +62,7 @@ $$ \begin{align} \mathbb{P}'(C_n) & = \mathbb{E} \Big[ \mathbb{1}_{C_n} \exp(-\t
      & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2) \ln(n)} \mathbb{1}_{C_n}}  \Big] \\
      & = \e^{-(1-\varepsilon/2) \ln(n) } \mathbb{E}[\mathbb{1}_{C_n})] $$
      & = \e^{-(1-\varepsilon/2) \ln(n) } \mathbb{P}(C_n)
+   \end{align} $$
 
 Where we used the fact that the expected value of the indicator function is indeed a probability.
 
@@ -71,4 +72,15 @@ $$ f_n = \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} $$
 
 Then:
 
-$ \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $
+$$ \begin{align} 
+    \mathbb{P}(C_n) & \leq n^{1 - \varepsilon/2} \mathbb{P}'(C_n) \newline
+                    & \leq n^{1 - \varepsilon/2} \mathbb{P}'(T_2(n) \leq f_n) \newline
+                    & = n^{1 - \varepsilon/2} \mathbb{P}'(n - T_2(n) > n - f_n ) \newline
+                    & \leq n^{1 - \varepsilon/2} \frac{\mathbb{E}'[n - T_2(n)]}{n - f_n}
+   \end{align} $$
+
+Now, because of the assumption at the beginning:
+
+$$ \mathbb{P}(C_n) \leq n^{1 - \varepsilon/2} \mathbb{E}' \frac{n - T_2(n)}{n - f_n} = n^{1 - \varepsilon/2}  \frac{n - \mathbb{E}'[T_2(n)]}{n - f_n} = o(1)   $$
+
+$ \qquad \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $
