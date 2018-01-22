@@ -70,7 +70,7 @@ $$
 $$
 
 
-Where we used the fact that the expected value of the indicator function is indeed a probability.
+Where we used the fact that the expected value of the indicator function of an event $A$ is indeed the probability of that event happening.
 
 If we introduce the following shorthand:
 
