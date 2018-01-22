@@ -79,6 +79,6 @@ $$ \begin{align}
 
 Now, because of the assumption at the beginning:
 
-$$ \mathbb{P}(C_n) \leq n^{(1 - \varepsilon/2)} \mathbb{E}' \frac{n - T_2(n)}{n - f_n} = n^{(1 - \varepsilon/2)}  \frac{n - \mathbb{E}'[T_2(n)]}{n - f_n} = o(1) $$
+$$ \mathbb{P}(C_n) \leq n^{(1 - \varepsilon/2)} \frac{\mathbb{E}'[n - T_2(n)]}{n - f_n} = n^{(1 - \varepsilon/2)}  \frac{n - \mathbb{E}'[T_2(n)]}{n - f_n} = o(1) $$
 
 $ \mathbf{3. \quad \mathbb{P}(T_2(n) < f_n) = o(1)} $
