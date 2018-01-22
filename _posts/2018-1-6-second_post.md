@@ -62,10 +62,8 @@ Combining the previous 2 equations, we get the following:
 
 $$ 
 \begin{align} 
- \mathbb{P}(C_n) & \leq n^{(1 - \varepsilon/2)} \mathbb{P}'(C_n) \newline
-                    & \leq n^{(1 - \varepsilon/2)} \mathbb{P}'(T_2(n) < f_n) \newline
-                    & = n^{(1 - \varepsilon/2)} \mathbb{P}'(n - T_2(n) > n - f_n ) \newline
-                    & \leq n^{(1 - \varepsilon/2)} \frac{\mathbb{E}'[n - T_2(n)]}{n - f_n} \qquad \text{using Markov inequality}
+ \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}_{C_n} \exp(-\hat{\text{kl}}_{T_2(n)}) \Big] \newline
+                  & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2)} }  \Big] 
 \end{align} 
 $$
 
