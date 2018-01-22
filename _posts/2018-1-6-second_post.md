@@ -63,7 +63,6 @@ Combining the previous 2 equations, we get the following:
 $$ 
 \begin{align} 
  \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}_{C_n} \exp(-\hat{\text{kl}}_{T_2(n)}) \Big] \newline
-                  & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2)} }  \Big] 
 \end{align} 
 $$
 
