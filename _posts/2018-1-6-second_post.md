@@ -63,8 +63,8 @@ Combining the previous 2 equations, we get the following:
 $$ 
 \begin{align}
   \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}_{C_n} \exp(-\hat{\text{kl}}_{T_2(n)}) \Big] \\
-     & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2) \ln(n)} \mathbb{1}{C_n} \Big] \\
-     & = e^{-(1-\varepsilon/2) \ln(n) } \mathbb{E}[\mathbb{1}{C_n})] \\
+     & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2) \ln(n)} \mathbb{1}_{C_n} \Big] \\
+     & = e^{-(1-\varepsilon/2) \ln(n) } \mathbb{E}[\mathbb{1}_{C_n})] \\
      & = n^{(1 - \varepsilon/2)} \mathbb{P}(C_n)
 \end{align}
 $$
