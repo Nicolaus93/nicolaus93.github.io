@@ -65,14 +65,12 @@ $$
   \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}_{C_n} \exp(-\hat{\text{kl}}_{T_2(n)}) \Big] \\
      & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2) \ln(n)} \mathbb{1}_{C_n} \Big] \\
      & = e^{-(1-\varepsilon/2) \ln(n) } \mathbb{E}[\mathbb{1}_{C_n})] \\
-     & = n^{(1 - \varepsilon/2)} \mathbb{P}(C_n)
+     & = n^{-(1 - \varepsilon/2)} \mathbb{P}(C_n)
 \end{align}
 $$
 
 
-Where we used the fact that the expected value of the indicator function of an event $A$ is indeed the probability of that event happening.
-
-If we introduce the following shorthand:
+Where we used the fact that the expected value of the indicator function of an event $A$ is indeed the probability of that event happening. Thus we have obtained that $ \mathbb{P}'(C_n) \geq n^{-(1 - \varepsilon/2)} \mathbb{P}(C_n) $. If we introduce the following shorthand:
 
 $$ f_n = \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} $$
 
