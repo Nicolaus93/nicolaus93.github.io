@@ -43,8 +43,10 @@ $$ \begin{align}
 Thus: 
 
 $$ \begin{align}
- \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] & = 1
- & = 2
+ \mathbb{E}[\mathbb{1}_A \exp(-\hat{\text{kl}}_{T_2(n)})] & = 
+\sum_{\omega \in A} \mathbb{P}(\omega)f(\omega) \\
+  & = \sum_{\omega \in A} \prod_{X_2} \mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})} \\
+  & = \mathbb{P}'(A)
 \end{align} $$
  
 
