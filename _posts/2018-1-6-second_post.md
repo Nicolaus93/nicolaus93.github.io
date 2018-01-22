@@ -56,4 +56,19 @@ $$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n)
 
 $ \mathbf{2. \mathbb{P}(C_n) = o(1)} $
 
+Combining the previous 2 equations, we get the following:
+
+$$ \begin{align} \mathbb{P}'(C_n) & = \mathbb{E} \Big[ \mathbb{1}_{C_n} \exp(-\text{\hat{kl}}_{T_2(n)}) \Big] \\
+     & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2) \ln(n)} \mathbb{1}_{C_n}}  \Big] \\
+     & = \e^{-(1-\varepsilon/2) \ln(n) } \mathbb{E}[\mathbb{1}_{C_n})] $$
+     & = \e^{-(1-\varepsilon/2) \ln(n) } \mathbb{P}(C_n)
+
+Where we used the fact that the expected value of the indicator function is indeed a probability.
+
+If we introduce the following shorthand:
+
+$$ f_n = \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} $$
+
+Then:
+
 $ \mathbf{3. $\mathbb{P}(T_2(n) < f_n) = o(1)} $
