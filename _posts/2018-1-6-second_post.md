@@ -48,20 +48,17 @@ $$ \begin{align}
   & = \sum_{\omega \in A} \prod_{X_2} \mu_2' X_{2,t} + (1-\mu_2')(1-X_{2,t})} \newline
   & = \mathbb{P}'(A)
 \end{align} $$
- 
 
 We finally define the event:
 
 $$ C_n = \Big\{ T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \quad \text{and} \quad \hat{\text{kl}}_{T_2(n)} \leq \Big(1 - \frac{\varepsilon}{2} \Big) \ln(n) \Big\} $$
 
-$ \mathbf{2. \qquad \mathbb{P}(C_n) = o(1)} $
+$ \mathbf{2. \quad \mathbb{P}(C_n) = o(1)} $
 
 Combining the previous 2 equations, we get the following:
 
-$$ \begin{align} \mathbb{P}'(C_n) & = \mathbb{E} \Big[ \mathbb{1}_{C_n} \exp(-\text{\hat{kl}}_{T_2(n)}) \Big] \newline
-     & \geq \mathbb{E} \Big[e^{-(1-\varepsilon/2) \ln(n)} \mathbb{1}{C_n}} \Big] \newline
-     & = \e^{-(1-\varepsilon/2) \ln(n) } \mathbb{E}[\mathbb{1}{C_n})] \newline
-     & = \e^{-(1-\varepsilon/2) \ln(n) } \mathbb{P}(C_n)
+$$ \begin{align} 
+      \mathbb{P}'(C_n) & = \mathbb{E} \Big[ \mathbb{1}_{C_n} \exp(-\text{\hat{kl}}_{T_2(n)}) \Big] \newline
    \end{align} $$
 
 Where we used the fact that the expected value of the indicator function is indeed a probability.
@@ -81,6 +78,6 @@ $$ \begin{align}
 
 Now, because of the assumption at the beginning:
 
-$$ \mathbb{P}(C_n) \leq n^{(1 - \varepsilon/2)} \mathbb{E}' \frac{n - T_2(n)}{n - f_n} = n^{(1 - \varepsilon/2)}  \frac{n - \mathbb{E}'[T_2(n)]}{n - f_n} = o(1)   $$
+$$ \mathbb{P}(C_n) \leq n^{(1 - \varepsilon/2)} \mathbb{E}' \frac{n - T_2(n)}{n - f_n} = n^{(1 - \varepsilon/2)}  \frac{n - \mathbb{E}'[T_2(n)]}{n - f_n} = o(1) $$
 
-$ \mathbf{3. \qquad $\mathbb{P}(T_2(n) < f_n) = o(1)} $
+$ \mathbf{3. \quad \mathbb{P}(T_2(n) < f_n) = o(1)} $
