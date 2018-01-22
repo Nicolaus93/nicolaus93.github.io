@@ -63,6 +63,7 @@ Combining the previous 2 equations, we get the following:
 $$ 
 \begin{align} 
  \mathbb{P}'(C_n) & = \mathbb{E} \Big[\mathbb{1}_{C_n} \exp(-\hat{\text{kl}}_{T_2(n)}) \Big] \newline
+                  & \leq 2
 \end{align} 
 $$
 
