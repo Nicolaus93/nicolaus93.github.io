@@ -74,7 +74,7 @@ Then:
 
 $$ \begin{align} 
     \mathbb{P}(C_n) & \leq n^({1 - \varepsilon/2}) \mathbb{P}'(C_n) \newline
-                    & \leq n^({1 - \varepsilon/2}) \mathbb{P}'(T_2(n) \leq f_n) \newline
+                    & \leq n^({1 - \varepsilon/2}) \mathbb{P}'(T_2(n) < f_n) \newline
                     & = n^({1 - \varepsilon/2}) \mathbb{P}'(n - T_2(n) > n - f_n ) \newline
                     & \leq n^({1 - \varepsilon/2}) \frac{\mathbb{E}'[n - T_2(n)]}{n - f_n} \qquad \text{using Markov inequality}
    \end{align} $$
