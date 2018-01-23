@@ -17,7 +17,7 @@ $$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
 Wlog, assume $\mu_2 < \mu_1 < 1$. Let $\varepsilon > 0$. We can find bla bla such that:
 
-$$ \text{kl}(\mu_2, \mu_2') \leq (1 + \varepsilon)\text{kl}(\mu_2, \mu_1) $$
+$$ \text{kl}(\mu_2, \mu_2') \leq (1 + \varepsilon)\text{kl}(\mu_2, \mu_1) \tag{1}\label{1} $$
 
 We want to have a lower bound on the number of times the optimal arm is played..
 
@@ -112,6 +112,12 @@ since the first term goes to zero asymptotically while the second term is greate
 Thus, by using the result in the second step and this last one we get:
 
 $$ \mathbb{P}(T_2(n) < f_n) = \mathbb{P}\big(T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \big) = o(1) $$
+
+By using $\eqref{1}$, we obtain:
+
+$$ \mathbb{E}[T_2(n)] \geq (1 + o(1)) \frac{1 + \varepsilon}{1 - \varepsilon} \frac{\ln(n)}{\text{kl}(\mu_2, \mu_1)} $$
+
+and the theorem is proved!
 
 
 
