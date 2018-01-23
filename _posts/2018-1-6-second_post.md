@@ -88,3 +88,11 @@ Now, because of the assumption at the beginning:
 $$ \mathbb{P}(C_n) \leq n^{(1 - \varepsilon/2)} \frac{\mathbb{E}'[n - T_2(n)]}{n - f_n} = n^{(1 - \varepsilon/2)}  \frac{n - \mathbb{E}'[T_2(n)]}{n - f_n} = o(1) $$
 
 $ \mathbf{3. \quad \mathbb{P}(T_2(n) < f_n) = o(1)} $
+
+$$ \begin{align}
+\mathbb{P}(C_n) & \geq \mathbb{P} \bigg(T_2(n) < f_n \quad \text{and} \quad \max_{s \leq f_n} \hat{\text{kl}} \leq \Big(1 - \frac{\varepsilon}{2} \Big) \ln(n) \bigg) \\
+ & = \mathbb{P} \bigg(T_2(n) < f_n \quad \text{and} \quad \frac{\text{kl}(\mu_2, \mu_2')}{(1-\varepsilon)\ln(n)} \times \max_{s \leq f_n} \hat{\text{kl}}_s \leq \frac{1 - \varepsilon/2}{1 - \varepsilon} \text{kl}(\mu_2, \mu_2') \bigg) 
+\end{align} $$
+
+We can now use the maximal version of the strong law of large numbers, which says that for any sequence $(X_t)$ of independent real random variables with positive mean $\mu > 0$ we have that:
+
