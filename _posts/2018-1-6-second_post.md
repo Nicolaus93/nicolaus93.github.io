@@ -103,5 +103,15 @@ If we apply this result to our empirical $\hat{\text{kl}}$ divergence, then we g
 
 $$ \lim_{n \to \infty} \max_{s=1,\ldots, f_n} \sum_{t=1}^s \hat{\text{kl}}_t = \text{kl}(\mu_2, \mu_2') \quad a.s.  $$
 
-Now, since the kl-divergence is a quantity between 0 and 1 while $ \frac{1-\varepsilon/2}{1-\varepsilon} > 1$, we have that the first term goes to zero asymptotically while the second term is greater than 0:
+Now, since the kl-divergence is a quantity between 0 and 1 while $ \frac{1-\varepsilon/2}{1-\varepsilon} > 1$, we have that:
+
+$$ \lim_{n \to \infty} \mathbb{P} \bigg( \frac{\text{kl}(\mu_2, \mu_2')}{(1-\varepsilon)\ln(n)} \times \max_{s \leq f_n} \hat{\text{kl}}_s \leq \frac{1 - \varepsilon/2}{1 - \varepsilon} \text{kl}(\mu_2, \mu_2') \bigg) = 1 $$
+
+since the first term goes to zero asymptotically while the second term is greater than 0.
+
+Thus, by using the result in the second step and this last one we get:
+
+$$ \mathbb{P}(T_2(n) < f_n) = \mathbb{P}\big(T_2(n) < \frac{1 - \varepsilon}{\text{kl}(\mu_2, \mu_2')} \ln(n) \big) = o(1) $$
+
+
 
