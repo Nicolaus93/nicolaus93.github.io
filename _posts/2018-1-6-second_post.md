@@ -96,3 +96,12 @@ $$ \begin{align}
 
 We can now use the maximal version of the strong law of large numbers, which says that for any sequence $(X_t)$ of independent real random variables with positive mean $\mu > 0$ we have that:
 
+$$ \lim_{n \to \infty} \frac{1}{n} \sum_{t=1}^n X_t = \mu \quad a.s. \quad \text{implies} \quad \lim_{n \to \infty} \max_{s=1,\ldots,n} \sum_{t=1}^s X_t = \mu \quad a.s. $$
+
+see e.g. [here, Lemma 10.5](https://tel.archives-ouvertes.fr/tel-00845565/document).
+If we apply this result to our empirical $\hat{\text{kl}}$ divergence, then we get:
+
+$$ \lim_{n \to \infty} \max_{s=1,\ldots, f_n} \sum_{t=1}^s \hat{\text{kl}}_t = \text{kl}(\mu_2, \mu_2') \quad a.s.  $$
+
+Now, since the kl-divergence is a quantity between 0 and 1 while $ \frac{1-\varepsilon/2}{1-\varepsilon} > 1$, we have that the first term goes to zero asymptotically while the second term is greater than 0:
+
