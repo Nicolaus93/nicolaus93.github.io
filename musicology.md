@@ -103,6 +103,8 @@ Starfunkel - [A mixtape from Ghana](https://www.youtube.com/watch?v=ITurXyhdQxY)
 
 Jono Das - [Fiction](https://www.youtube.com/watch?v=L1O-IaBINDc)
 
+Quincy Jones - [You've Got It Bad Girl](https://www.youtube.com/watch?v=1rFNpXzEKTI)
+
 # Rap
 Mos Def - [Umi says](https://www.youtube.com/watch?v=Pyp3vha8PNw)
 
