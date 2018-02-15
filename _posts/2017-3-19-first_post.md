@@ -7,7 +7,7 @@ Variance? Whaaaat?
 
 This is my first post and it's basically a test, I am trying to learn how to write math equations using Mathjax (fortunately, it's almost the same as writing in Latex). This post will be about something I encountered when I was studying for my  probability theory exam..
 
-Everybody knows (hopefully) that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)]$, where $\mu=\mathrm{E}[X]$. However, how can we estimate the variance related to some population?
+Everybody knows (hopefully) that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)^2]$, where $\mu=\mathrm{E}[X]$. So, how do we estimate in practice the variance related to some population?
 
 <dl>
   <div class="image-wrapper" >
