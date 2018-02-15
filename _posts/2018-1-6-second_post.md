@@ -3,11 +3,22 @@ layout: post
 title: Member lower bounds?
 ---
 
-**Theorem**: Consider a strategy that satisfies $E[T_i(n)] = o(n^a)$ for any set of Bernoulli reward distributions, any arm $i$ with $\Delta_i > 0$, and any $a > 0$. Then, for any set of Bernoulli reward distributions the following holds:
+Multi-armed bandit algorithms are becoming more and more important in the field of machine learning (at least to me, since I started a PhD on this topic :D). This funny name derives from the one-armed bandit, a name for a lever operated slot machine, and apparently also for a [Belgian rock album](https://en.wikipedia.org/wiki/One_Armed_Bandit).
+In the multi-armed bandit setting we have an agent which acts in rounds. Each round the agent selects one of the possible $K$ arms and collects a reward. His objective is to maximize the rewards collected over $n$ rounds. However, to characterize the behaviour of any strategy, we derive its (pseudo)-**regret** with respect to the an (unknown) optimal strategy which always the best arm. More specifically, if we denote by $X_{i,1}, X_{i, 2}, \ldots$ the rewards associated to arms $i=1, \ldots, K$ in $t=1,2,\ldots,n$ and the arm played by our strategy denoted by the index $I_t$, then we can define the pseudo-regret as follows:
+
+$$ \bar{R}_n = \max_{i=1,\ldots,K} \mathbb{E} \Big[ \sum_{t=1}^n X_{i, t} - \sum_{t=1}^n X_{I_t, t} \Big] $$
+
+Note that the we compare the reward our strategy to the one of the best arm in expectation (there may be some realizations where the best arm doesn't give the highest reward). We usually distinguish between 2 set of bandit scenarios: stochastic and adversarial. In this post I will focus on the former.
+
+## Stochastic Bandits
+
+
+
+**Theorem**: Consider a strategy that satisfies $\mathbb{E}[T_i(n)] = o(n^a)$ for any set of Bernoulli reward distributions, any arm $i$ with $\Delta_i > 0$, and any $a > 0$. Then, for any set of Bernoulli reward distributions the following holds:
 
 $$ \lim_{n\to +\infty} \inf\frac{\bar{R}_n}{\ln n}\geq \sum_{i: \Delta_i > 0} \frac{\Delta_i}{\text{kl}(\mu_i, \mu^*)}  $$
 
-Using inequalities:
+Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheory2014/l5.pdf) and  inequalities:
 
 $$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
