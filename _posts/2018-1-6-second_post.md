@@ -34,7 +34,7 @@ Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheor
 
 $$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
-## Proof
+### Proof
 
 **1. Notation**
 
