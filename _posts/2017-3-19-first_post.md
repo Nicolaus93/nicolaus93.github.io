@@ -26,15 +26,17 @@ First, we need to recall some definitions:
 
 #### Convergence in probability
 
-⋅⋅⋅A sequence $(X_n)\_{n\in \mathbb{N}}$ of real-valued random variables is said to converge in probability to some other real-valued random variable $X$ , denoted $X_n \overset{P}\to X$ , if for all $\varepsilon > 0$:
+A sequence $(X_n)\_{n\in \mathbb{N}}$ of real-valued random variables is said to converge in probability to some other real-valued random variable $X$ , denoted $X_n \overset{P}\to X$ , if for all $\varepsilon > 0$:
 
 $$ P(|X_n −X|\geq \varepsilon) \to 0 \quad as \quad n\to \infty $$
 
 #### (Weak) Law of Large Numbers
 
-⋅⋅⋅I will write it
+Since I'm lazy, you can look it up [here](https://en.wikipedia.org/wiki/Law_of_large_numbers)
 
-Then, we have to show that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
+#### Proof
+
+Thus, showing that our estimator is unbiased is equivalent to say that $ S_n^2 \overset{P}{\to} \sigma^2 $ as $ n \to +\infty$.
 
 To start, we can rewrite the expression for $S_n$. We observe the following:
 
