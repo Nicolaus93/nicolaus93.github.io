@@ -22,7 +22,7 @@ $$ S_n^2 = \frac{1}{n-1} \sum_{i=1}^n (X_i - \bar{X}_n)^2 \tag{1}\label{1}$$
 
 Is it unbiased (a.k.a. does it converge to the true value)?
 
-First, we need to recall some definitions:
+First, we need to recall some definitions..
 
 #### Convergence in probability
 
@@ -32,7 +32,7 @@ $$ P(|X_n −X|\geq \varepsilon) \to 0 \quad as \quad n\to \infty $$
 
 #### (Weak) Law of Large Numbers
 
-Since I'm lazy, you can look it up [here](https://en.wikipedia.org/wiki/Law_of_large_numbers)
+Since I'm lazy, you can look it up [here](https://en.wikipedia.org/wiki/Law_of_large_numbers).
 
 #### Proof
 
