@@ -32,7 +32,7 @@ $$ P(|X_n −X|\geq \varepsilon) \to 0 \quad as \quad n\to \infty $$
 
 #### (Weak) Law of Large Numbers
 
-Since I'm lazy, you can look it up [here](https://en.wikipedia.org/wiki/Law_of_large_numbers).
+Since I'm lazy, you can look it up [here](https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law).
 
 #### Proof
 
