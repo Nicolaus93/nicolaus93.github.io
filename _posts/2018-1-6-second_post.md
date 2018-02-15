@@ -22,7 +22,7 @@ Note that the we compare the reward our strategy to the one of the best arm in e
 ## Stochastic Bandits
 
 In the stochastic multi-armed bandit problem, each arm is parametrized by an unknown probability distribution $\nu_i$.
-For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\} and collects a reward X_{I_t} \sim \nu_{I_t} independent from past rewards.
+For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward X_{I_t} \sim \nu_{I_t} independent from past rewards.
 What is the maximum reward that any algorithm can collect? Or, in other words, what is the minimum regret it can attain? 
 There's a fundamental lower bound that we are going to describe next, limited to the case where $K=2$ and the probability distributions are Bernoulli.
 
