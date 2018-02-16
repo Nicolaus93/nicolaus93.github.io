@@ -157,4 +157,6 @@ Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheor
 
 $$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
-In our case $p$ and $q$ are the parameters of the 2 Bernoulli, thus 
+In our case $p$ and $q$ are the parameters of the 2 Bernoulli $\mu^* $ and $\mu_i$, thus we get the following:
+
+$$ \frac{1}{2\Delta_i} \geq \frac{\Delta_i}{\text{kl}(\mu_i, \mu^* ) \geq \frac{\mu^* (1 - \mu^* )}{2\Delta_i}} $$
