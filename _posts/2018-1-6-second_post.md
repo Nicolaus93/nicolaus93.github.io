@@ -22,7 +22,17 @@ Note that the we compare the reward our strategy to the one of the best arm in e
 ## Stochastic Bandits
 
 In the stochastic multi-armed bandit problem, each arm is parametrized by an unknown probability distribution $\nu_i$.
-For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward $X_{I_t} \sim \nu_{I_t}$ independent from past rewards.
+For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward $X_{I_t} \sim \nu_{I_t}$ independent from past rewards. If we denote by $\mu^* $ the mean of the best arm, then the regret can be rewritten as $R_n = n\mu^* - \mathbb{E}[\sum_{t=1}^n X_t]$. We can introduce the gap $\Delta_i = \mu^* - \mu_i $ where $\mu_i$ is the mean of arm $i$, and $T_i(n) = \sum_{t=1}^n \mathbb{1}\{ I_t = i \}$ as the number of times the algorithm selected arm $i$ on the first $n$ rounds. In general $T_i(n)$ is a random quantity since in each round $t$ it depends on $I_t$, which in turn depends on the previous random rewards observed. Then the regret can be rewritten as $\sum_{i=1}^K \mathbb{E}[n_i] \Delta_i$. To see this:
+
+\begin{align*} 
+R_n &=  T\mu^* - \mathbb{E}[S_n] \\ 
+ &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{E}[(\mu^*-X_t)\mathbbm{1}\{I_t = i\}] \\
+ &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{E}[(\mu^*-X_t)\mathbbm{1}\{I_t = i\}|I_t] \\
+ &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{1}\{I_t = i\}\mathbb{E}[(\mu^*-X_t)|I_t] \\
+ &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{1}\{I_t = i\}(\mu^*-\mu_{I_t}) \\
+ &= \sum_{i=1}^K \mathbb{E}[n_i] \Delta_i
+\end{align*}
+
 What is the maximum reward that any algorithm can collect? Or, in other words, what is the minimum regret it can attain? 
 
 There's a fundamental lower bound that we are going to describe next, limited to the case where the probability distributions are Bernoulli.
@@ -30,10 +40,6 @@ There's a fundamental lower bound that we are going to describe next, limited to
 **Theorem**: Consider a strategy that satisfies $\mathbb{E}[T_i(n)] = o(n^a)$ for any set of Bernoulli reward distributions, any arm $i$ with $\Delta_i > 0$, and any $a > 0$. Then, for any set of Bernoulli reward distributions the following holds:
 
 $$ \lim_{n\to +\infty} \inf\frac{\bar{R}_n}{\ln n}\geq \sum_{i: \Delta_i > 0} \frac{\Delta_i}{\text{kl}(\mu_i, \mu^*)}  $$
-
-Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheory2014/l5.pdf) and the fact that $\ln x \leq x - 1$:
-
-$$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
 ### Proof
 
@@ -145,5 +151,8 @@ $$ \mathbb{E}[T_2(n)] \geq (1 + o(1)) \frac{1 + \varepsilon}{1 - \varepsilon} \f
 
 and the theorem is proved!
 
+Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheory2014/l5.pdf) and the fact that $\ln x \leq x - 1$:
 
+$$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
+In our case $p$ and $q$ are the parameters of the 2 Bernoulli, thus 
