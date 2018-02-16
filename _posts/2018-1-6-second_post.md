@@ -15,18 +15,18 @@ Multi-armed bandit algorithms are becoming more and more important in the field 
 
 In the multi-armed bandit setting we have an agent which acts in rounds. Each round the agent selects one of the possible $K$ arms and collects a reward. His objective is to maximize the rewards collected over $n$ rounds. However, to characterize the behaviour of any strategy, we derive its (pseudo)-**regret** with respect to the an (unknown) optimal strategy which always selects the best arm. More specifically, if we denote by $X_{i,1}, X_{i, 2}, \ldots$ the rewards associated to arms $i=1, \ldots, K$ in $t=1,2,\ldots,n$ and the arm played by our strategy denoted by the index $I_t$, then we can define the pseudo-regret as follows:
 
-$$ \bar{R}_n = \max_{i=1,\ldots,K} \mathbb{E} \Big[ \sum_{t=1}^n X_{i, t} - \sum_{t=1}^n X_{I_t, t} \Big] $$
+$$ R_n = \max_{i=1,\ldots,K} \mathbb{E} \Big[ \sum_{t=1}^n X_{i, t} - \sum_{t=1}^n X_{I_t, t} \Big] $$
 
 Note that the we compare the reward our strategy to the one of the best arm in expectation (there may be some realizations where the best arm doesn't give the highest reward). We usually distinguish between 2 set of bandit scenarios: stochastic and adversarial. In this post I will focus on the former.
 
 ## Stochastic Bandits
 
 In the stochastic multi-armed bandit problem, each arm is parametrized by an unknown probability distribution $\nu_i$.
-For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward $X_{I_t} \sim \nu_{I_t}$ independent from past rewards. If we denote by $\mu^* $ the mean of the best arm, then the regret can be rewritten as $R_n = n\mu^* - \mathbb{E}[\sum_{t=1}^n X_t]$. We can introduce the gap $\Delta_i = \mu^* - \mu_i $, where $\mu_i$ is the mean of arm $i$, and $T_i(n) = \sum_{t=1}^n \mathbb{1}\\{ I_t = i \\}$ as the number of times the algorithm selected arm $i$ on the first $n$ rounds. In general $T_i(n)$ is a random quantity since in each round $t$ it depends on $I_t$, which in turn depends on the previous random rewards observed. Then the regret can be rewritten as $\\bar{R}_n = \sum_{i=1}^K \mathbb{E}[T_i(n)] \Delta_i$. To see this:
+For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward $X_{I_t} \sim \nu_{I_t}$ independent from past rewards. If we denote by $\mu^* $ the mean of the best arm, then the regret can be rewritten as $R_n = n\mu^* - \mathbb{E}[\sum_{t=1}^n X_t]$. We can introduce the gap $\Delta_i = \mu^* - \mu_i $, where $\mu_i$ is the mean of arm $i$, and $T_i(n) = \sum_{t=1}^n \mathbb{1}\\{ I_t = i \\}$ as the number of times the algorithm selected arm $i$ on the first $n$ rounds. In general $T_i(n)$ is a random quantity since in each round $t$ it depends on $I_t$, which in turn depends on the previous random rewards observed. Then the regret can be rewritten as $R_n = \sum_{i=1}^K \mathbb{E}[T_i(n)] \Delta_i$. To see this:
 
 $$
 \begin{align*} 
-\bar{R}_n &=  T\mu^* - \mathbb{E}[S_n] \\ 
+ R_n &=  T\mu^* - \mathbb{E}[S_n] \\ 
  &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{E}[(\mu^*-X_t)\mathbb{1}\{I_t = i\}] \\
  &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{E}[(\mu^*-X_t)\mathbb{1}\{I_t = i\}|I_t] \\
  &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{1}\{I_t = i\}\mathbb{E}[(\mu^*-X_t)|I_t] \\
@@ -41,7 +41,7 @@ Now, what is the minimum regret any algorithm can attain? In the case of stochas
 
 **Theorem**: Consider a strategy that satisfies $\mathbb{E}[T_i(n)] = o(n^a)$ for any set of Bernoulli reward distributions, any arm $i$ with $\Delta_i > 0$, and any $a > 0$. Then, for any set of Bernoulli reward distributions the following holds:
 
-$$ \lim_{n\to +\infty} \inf\frac{\bar{R}_n}{\ln n}\geq \sum_{i: \Delta_i > 0} \frac{\Delta_i}{\text{kl}(\mu_i, \mu^*)}  $$
+$$ \lim_{n\to +\infty} \inf\frac{R_n}{\ln n}\geq \sum_{i: \Delta_i > 0} \frac{\Delta_i}{\text{kl}(\mu_i, \mu^*)}  $$
 
 ### Proof
 
