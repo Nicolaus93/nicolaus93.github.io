@@ -35,7 +35,7 @@ R_n &=  T\mu^* - \mathbb{E}[S_n] \\
 \end{align*}
 $$
 
-Rewriting the regret in this way suggests that the goal of any algorithm is to quickly learn the arms with large $\Delta_k$ and discard them. Indeed, for arms whose $\Delta_k$ is large, pulling them even a few times causes a high regret.
+Rewriting the regret in this way suggests that the goal of any algorithm is to quickly learn the arms with large $\Delta_i$ and discard them. Indeed, for arms whose $\Delta_i$ is large, pulling them even a few times causes a high regret.
 
 Now, what is the minimum regret any algorithm can attain? There's a fundamental lower bound that we are going to describe next, limited to the case where the probability distributions are Bernoulli.
 
