@@ -22,11 +22,11 @@ Note that the we compare the reward our strategy to the one of the best arm in e
 ## Stochastic Bandits
 
 In the stochastic multi-armed bandit problem, each arm is parametrized by an unknown probability distribution $\nu_i$.
-For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward $X_{I_t} \sim \nu_{I_t}$ independent from past rewards. If we denote by $\mu^* $ the mean of the best arm, then the regret can be rewritten as $R_n = n\mu^* - \mathbb{E}[\sum_{t=1}^n X_t]$. We can introduce the gap $\Delta_i = \mu^* - \mu_i $, where $\mu_i$ is the mean of arm $i$, and $T_i(n) = \sum_{t=1}^n \mathbb{1}\\{ I_t = i \\}$ as the number of times the algorithm selected arm $i$ on the first $n$ rounds. In general $T_i(n)$ is a random quantity since in each round $t$ it depends on $I_t$, which in turn depends on the previous random rewards observed. Then the regret can be rewritten as $R_n = \sum_{i=1}^K \mathbb{E}[T_i(n)] \Delta_i$. To see this:
+For each round $t=1,\ldots,n$, the algorithm selects one arm $I_t \in \{1, \ldots, K\}$ and collects a reward $X_{I_t} \sim \nu_{I_t}$ independent from past rewards. If we denote by $\mu^* $ the mean of the best arm, then the regret can be rewritten as $R_n = n\mu^* - \mathbb{E}[\sum_{t=1}^n X_t]$. We can introduce the gap $\Delta_i = \mu^* - \mu_i $, where $\mu_i$ is the mean of arm $i$, and $T_i(n) = \sum_{t=1}^n \mathbb{1}\\{ I_t = i \\}$ as the number of times the algorithm selected arm $i$ on the first $n$ rounds. In general $T_i(n)$ is a random quantity since in each round $t$ it depends on $I_t$, which in turn depends on the previous random rewards observed. Then the regret can be rewritten as $\bar{R}_n = \sum_{i=1}^K \mathbb{E}[T_i(n)] \Delta_i$. To see this:
 
 $$
 \begin{align*} 
-R_n &=  T\mu^* - \mathbb{E}[S_n] \\ 
+\bar{R}_n &=  T\mu^* - \mathbb{E}[S_n] \\ 
  &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{E}[(\mu^*-X_t)\mathbb{1}\{I_t = i\}] \\
  &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{E}[(\mu^*-X_t)\mathbb{1}\{I_t = i\}|I_t] \\
  &= \sum_{i=1}^K\sum_{t=1}^n \mathbb{1}\{I_t = i\}\mathbb{E}[(\mu^*-X_t)|I_t] \\
