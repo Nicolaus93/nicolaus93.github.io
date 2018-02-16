@@ -37,7 +37,7 @@ $$
 
 Rewriting the regret in this way suggests that the goal of any algorithm is to quickly learn the arms with large $\Delta_i$ and discard them. Indeed, for arms whose $\Delta_i$ is large, pulling them even a few times causes a high regret.
 
-Now, what is the minimum regret any algorithm can attain? There's a fundamental lower bound that we are going to describe next, limited to the case where the probability distributions are Bernoulli.
+Now, what is the minimum regret any algorithm can attain? In the case of stochastic bandits, there's a fundamental lower bound that we are going to describe next, limited to the case where the probability distributions are Bernoulli.
 
 **Theorem**: Consider a strategy that satisfies $\mathbb{E}[T_i(n)] = o(n^a)$ for any set of Bernoulli reward distributions, any arm $i$ with $\Delta_i > 0$, and any $a > 0$. Then, for any set of Bernoulli reward distributions the following holds:
 
