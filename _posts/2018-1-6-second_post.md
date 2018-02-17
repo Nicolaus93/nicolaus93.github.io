@@ -153,13 +153,13 @@ $$ \mathbb{E}[T_2(n)] \geq (1 + o(1)) \frac{1 + \varepsilon}{1 - \varepsilon} \f
 
 Now, by using the regret decomposition in $\eqref{1}$, the theorem is proved.
 
-Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheory2014/l5.pdf) and the fact that $\ln x \leq x - 1$:
+Furthermore, by using the fact that $\ln x \leq x - 1$:
 
-$$ 2(p-q)^2 \leq \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
+$$ \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
 
-In our case $p$ and $q$ are the parameters of the 2 Bernoulli $\mu^* $ and $\mu_i$, thus (by reversing everything) we get the following:
+In our case $p$ and $q$ are the parameters of the 2 Bernoulli $\mu^* $ and $\mu_i$, thus (by reversing everything) we get:
 
-$$ \frac{1}{2\Delta_i} \geq \frac{\Delta_i}{\text{kl}(\mu_i, \mu^* )} \geq \frac{\mu^* (1 - \mu^* )}{2\Delta_i} $$
+$$ \frac{\Delta_i}{\text{kl}(\mu_i, \mu^* )} \geq \frac{\mu^* (1 - \mu^* )}{2\Delta_i} $$
 
 So, up to a variance-like term this lower bound is $ \sum_{i: \Delta_i > 0} \frac{\ln(n)}{2 \Delta_i}$. This bound holds more generally than just for Bernoulli distributions, as shown for example in [Burnetas and Katehakis [1996]](http://www.rci.rutgers.edu/~mnk%C2%A0/papers/mab96.pdf).
 
