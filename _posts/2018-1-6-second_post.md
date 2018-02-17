@@ -155,7 +155,7 @@ Now, by using the regret decomposition in $\eqref{1}$, the theorem is proved.
 
 Furthermore, by using the fact that $\ln x \leq x - 1$:
 
-$$ \text{kl}(p,q) \leq\frac{(p-q)^2}{q(1-q)} $$
+$$ \text{kl}(p,q) = p \ln\frac{p}{q} + (1-p) \frac{1-p}{1-q} \leq\frac{(p-q)^2}{q(1-q)} $$
 
 In our case $p$ and $q$ are the parameters of the 2 Bernoulli $\mu^* $ and $\mu_i$, thus (by reversing everything) we get:
 
