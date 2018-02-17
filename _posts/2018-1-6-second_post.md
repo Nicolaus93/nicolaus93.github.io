@@ -49,7 +49,7 @@ For simplicity, we only consider 2 arms, i.e. $K=2$.
 
 **1. Notation**
 
-Wlog, assume $\mu_2 < \mu_1 < 1$. Let $\varepsilon > 0$. We can find bla bla such that:
+Wlog, assume $\mu_2 < \mu_1 < 1$. We now define a modified bandit where arm 2 is the unique optimal arm. Let $\varepsilon > 0$. We can find bla bla such that:
 
 $$ \text{kl}(\mu_2, \mu_2') \leq (1 + \varepsilon)\text{kl}(\mu_2, \mu_1) \tag{2}\label{2} $$
 
