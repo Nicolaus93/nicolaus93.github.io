@@ -151,9 +151,7 @@ By using $\eqref{2}$, we obtain:
 
 $$ \mathbb{E}[T_2(n)] \geq (1 + o(1)) \frac{1 + \varepsilon}{1 - \varepsilon} \frac{\ln(n)}{\text{kl}(\mu_2, \mu_1)} $$
 
-Now, by using the regret decomposition in $\eqref{1}$, the theorem is proved:
-
-$$ $$
+Now, by using the regret decomposition in $\eqref{1}$, the theorem is proved.
 
 Using [Pinsker's inequality](http://ttic.uchicago.edu/~madhurt/courses/infotheory2014/l5.pdf) and the fact that $\ln x \leq x - 1$:
 
