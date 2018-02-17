@@ -161,5 +161,5 @@ In our case $p$ and $q$ are the parameters of the 2 Bernoulli $\mu^* $ and $\mu_
 
 $$ \frac{1}{2\Delta_i} \geq \frac{\Delta_i}{\text{kl}(\mu_i, \mu^* )} \geq \frac{\mu^* (1 - \mu^* )}{2\Delta_i} $$
 
-So, up to a variance-like term this lower bound is $ \sum_{i: \Delta_i > 0} \frac{\log(T)}{2 \Delta_i}$. This bound holds more generally than just for Bernoulli distributions, as shown for example in [Burnetas and Katehakis [1996]](http://www.rci.rutgers.edu/~mnk%C2%A0/papers/mab96.pdf).
+So, up to a variance-like term this lower bound is $ \sum_{i: \Delta_i > 0} \frac{\ln(n)}{2 \Delta_i}$. This bound holds more generally than just for Bernoulli distributions, as shown for example in [Burnetas and Katehakis [1996]](http://www.rci.rutgers.edu/~mnk%C2%A0/papers/mab96.pdf).
 
