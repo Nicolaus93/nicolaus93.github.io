@@ -89,7 +89,7 @@ Wayne Shorter - [Introducing Wayne Shorter](https://www.youtube.com/watch?v=mfNc
 
 Cannonball Adderley and Milt Jackson - [Thing are getting better](https://www.youtube.com/watch?v=MA9SgwdHon0)
 
-Sun Ra - [](https://www.youtube.com/watch?v=kG5f2w-K5jo)
+Sun Ra - [s](https://www.youtube.com/watch?v=kG5f2w-K5jo)
 
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
