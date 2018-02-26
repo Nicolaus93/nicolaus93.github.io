@@ -91,6 +91,8 @@ Cannonball Adderley and Milt Jackson - [Thing are getting better](https://www.yo
 
 Sun Ra - [The Futuristic Sounds Of Sun Ra](https://www.youtube.com/watch?v=kG5f2w-K5jo) (1961)
 
+John Coltrane & Milt Jackson - [Bags & Trane](https://www.youtube.com/watch?v=i-PlqGQexyE)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
