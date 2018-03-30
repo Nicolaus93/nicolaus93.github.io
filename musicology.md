@@ -97,6 +97,8 @@ John Coltrane & Milt Jackson - [Bags & Trane](https://www.youtube.com/watch?v=i-
 
 Steve Coleman and Five Elements - [The Opening Of The Way](https://www.youtube.com/watch?v=ih1JA8kHNAw) (1997)
 
+Red Garland - [Red Garland's Piano](https://www.youtube.com/watch?v=Fl6TAl2dXVc) (with Paul Chambers and Art Taylor, 1957)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
