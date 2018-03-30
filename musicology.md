@@ -99,6 +99,8 @@ Steve Coleman and Five Elements - [The Opening Of The Way](https://www.youtube.c
 
 Red Garland - [Red Garland's Piano](https://www.youtube.com/watch?v=Fl6TAl2dXVc) (with Paul Chambers and Art Taylor, 1957)
 
+Wynton Kelly - [Piano Interpretations](https://www.youtube.com/watch?v=Cr3ulhJIZRQ) (1951)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
