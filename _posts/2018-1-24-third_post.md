@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Member perceptron?
+title: Member gradient descent?
 ---
 
-Hi!
+The general paradigm of online learning is the following:
+
+$$ a = b $$ 
