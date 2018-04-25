@@ -19,7 +19,7 @@ $$
 \end{align*}
 $$
 
-## Note: square root of an eigendecomposition
+## Note square root of an eigendecomposition
 
 Given an eigendecomposition $ \mathbf{Z} = \mathbf{P\Lambda P}^\top $, then the following holds:
 
