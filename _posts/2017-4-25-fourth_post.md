@@ -18,3 +18,19 @@ $$
 &= ||\mathbf{\lambda}||_1 && \mathbf{\Lambda}=\text{diag}(\lambda)
 \end{align*}
 $$
+
+### Note: square root of an eigendecomposition
+
+Given an eigendecomposition $ \mathbf{Z} = \mathbf{P\Lambda P}^\top $, then the following holds:
+
+$$ \Big(\mathbf{P\Lambda P}^\top \Big)^\frac{1}{2} = \mathbf{P\Lambda}^{\frac{1}{2}} \mathbf{P}^\top $$
+
+Indeed:
+
+\begin{align*}
+  \Big( \mathbf{P\Lambda}^{\frac{1}{2}} \mathbf{P}^\top \Big)^2 &= \mathbf{P\Lambda}^{\frac{1}{2}} \mathbf{P}^\top \mathbf{P\Lambda}^{\frac{1}{2}} \mathbf{P}^\top \\
+    &= \mathbf{P\Lambda}^{\frac{1}{2}} \mathbf{\Lambda}^{\frac{1}{2}} \mathbf{P}^\top \\
+    &= \mathbf{P\Lambda P}^\top
+\end{align*}
+
+Now, take the square root and it's done!
