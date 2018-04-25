@@ -49,3 +49,6 @@ $$
 \text{Tr}\Big(\mathbf{P}(\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \Big) = \text{Tr}\Big(\mathbf{P}\big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \big) \Big) = \text{Tr}\Big(\big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \big) \mathbf{P} \Big) =
 \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big)
 $$ 
+
+## Info
+[eigendecomposition](http://www.onmyphd.com/?p=eigen.decomposition)
