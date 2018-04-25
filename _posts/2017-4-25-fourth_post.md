@@ -13,13 +13,13 @@ $$
 &= \text{Tr}\Big((\mathbf{P\Lambda P}^\top\mathbf{P\Lambda P}^\top)^{\tfrac{1}{2}}\Big) && \text{Eigendecomposition of } \mathbf{Z} \\
 &= \text{Tr}\Big((\mathbf{P\Lambda}^2 \mathbf{P}^\top)^{\tfrac{1}{2}}\Big) && \text{Orthogonality of } \mathbf{P} \\
 &= \text{Tr}\Big(\mathbf{P}(\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \Big) && \text{square root of an eigendecomposition} \\
-&= \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big) && \text{Trace of a PSD matrix} \\
+&= \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big) \\
 &= \text{Tr}\Big( |\mathbf{\Lambda}| \Big) \\
 &= ||\mathbf{\lambda}||_1 && \mathbf{\Lambda}=\text{diag}(\lambda)
 \end{align*}
 $$
 
-## Note: square root of an eigendecomposition
+## Note1: square root of an eigendecomposition
 
 Given an eigendecomposition $ \mathbf{Z} = \mathbf{P\Lambda P}^\top $, then the following holds:
 
@@ -36,3 +36,16 @@ $$
 $$
 
 Now, take the square root and it's done!
+
+## Note2: trace properties
+
+The following holds:
+
+$$ \text{Tr}(\mathbf{AB}) = \text{Tr}(\mathbf{BA}) $$
+
+Then:
+
+$$ 
+\text{Tr}\Big(\mathbf{P}(\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \Big) = \text{Tr}\Big(\mathbf{P}\big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \big) \Big) = \text{Tr}\Big(\big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \big) \mathbf{P} \Big) =
+\text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big)
+$$ 
