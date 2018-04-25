@@ -15,6 +15,6 @@ $$
 &= \text{Tr}\Big(\mathbf{P}(\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \Big) && \text{square root of an eigendecomposition} \\
 &= \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big) && \text{Trace of a PSD matrix} \\
 &= \text{Tr}\Big( |\mathbf{\Lambda}| \Big) \\
-&=\text{diag}(\mathbf{\lambda}) && \mathbf{\Lambda}=\text{diag}(\lambda)
+&= ||\mathbf{\lambda}||_1 && \mathbf{\Lambda}=\text{diag}(\lambda)
 \end{align*}
 $$
