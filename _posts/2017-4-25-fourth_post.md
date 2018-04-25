@@ -11,7 +11,7 @@ $$
 \begin{align*} 
 || \mathbf{Z} ||_* &= \text{Tr}\Big((\mathbf{Z}^2)^{\frac{1}{2}}\Big) \\
 &= \text{Tr}\Big((\mathbf{P\Lambda P}^\top\mathbf{P\Lambda P}^\top)^{\tfrac{1}{2}}\Big) && \text{Eigendecomposition of } \mathbf{Z} \\
-&= \text{Tr}\Big((\mathbf{P\Lambda^2 P}^\top)^{\tfrac{1}{2}}\Big) && \text{Orthogonality of } \mathbf{P} \\
+&= \text{Tr}\Big((\mathbf{P\Lambda}^2 \mathbf{P}^\top)^{\tfrac{1}{2}}\Big) && \text{Orthogonality of } \mathbf{P} \\
 &= \text{Tr}\Big(\mathbf{P}(\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \Big) && \text{square root of an eigendecomposition} \\
 &= \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big) && \text{Trace of a PSD matrix} \\
 &= \text{Tr}\Big( |\mathbf{\Lambda}| \Big) \\
