@@ -39,7 +39,7 @@ Now, take the square root and it's done!
 
 ## Note2: trace properties
 
-The following holds:
+The matrices in a trace of a product can be switched without changing the result: If $\mathbf{A}$ is an $m \times n$ matrix and $\mathbf{B}$ is an $n \times m$ matrix, then The following holds:
 
 $$ \text{Tr}(\mathbf{AB}) = \text{Tr}(\mathbf{BA}) $$
 
