@@ -3,7 +3,7 @@ layout: post
 title: Member how to write math?
 ---
 
-At least, how to do that efficiently..
+I think so, but how to efficiently display it?
 
   * [Rendering LaTeX using KaTeX and Jekyll](https://xuc.me/blog/katex-and-jekyll/)
   * [Pseudocode.js](http://www.tatetian.io/pseudocode.js/)
