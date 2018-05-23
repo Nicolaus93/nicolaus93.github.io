@@ -3,6 +3,8 @@ layout: post
 title: Member Sherman-Morrison?
 ---
 
+You should, because of [this](http://qr.ae/TUTASr). Actually, that was the Woodbury formula. As a special case, we have the Sherman-Morrison update, which we here implement in Python:
+
 {% highlight python %}
 def sherman_morrison(M_inv, x):
     """
