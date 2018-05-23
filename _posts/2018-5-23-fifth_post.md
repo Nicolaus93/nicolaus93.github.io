@@ -3,13 +3,16 @@ layout: post
 title: Member Sherman-Morrison?
 ---
 
-{% highlight ruby linenos %}
-def show
-  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
+{% highlight python %}
+def sherman_morrison(M_inv, x):
+    """
+    Input:
+        - x: (np.array) column vector
+        - M_inv: (np.array) inverse of M matrix
+    Output:
+        (M + x*x')^-1 computed using Sherman-Morrison formula
+    """
+    x = x.reshape((-1, 1))
+    M_inv -= M_inv.dot(x.dot(x.T.dot(M_inv))) / (1 + x.T.dot(M_inv.dot(x)))
+    return M_inv
 {% endhighlight %}
