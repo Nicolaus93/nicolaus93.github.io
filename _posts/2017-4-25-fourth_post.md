@@ -13,7 +13,7 @@ $$
 &= \text{Tr}\Big((\mathbf{P\Lambda P}^\top\mathbf{P\Lambda P}^\top)^{\tfrac{1}{2}}\Big) && \text{Eigendecomposition of } \mathbf{Z} \\
 &= \text{Tr}\Big((\mathbf{P\Lambda}^2 \mathbf{P}^\top)^{\tfrac{1}{2}}\Big) && \text{Orthogonality of } \mathbf{P} \\
 &= \text{Tr}\Big(\mathbf{P}(\mathbf{\Lambda}^2)^{\tfrac{1}{2}}\mathbf{P}^\top \Big) && \text{square root of an eigendecomposition} \\
-&= \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big) \\
+&= \text{Tr}\Big((\mathbf{\Lambda}^2)^{\tfrac{1}{2}} \Big) && \text{Note2 below} \\
 &= \text{Tr}\Big( |\mathbf{\Lambda}| \Big) \\
 &= ||\mathbf{\lambda}||_1 && \mathbf{\Lambda}=\text{diag}(\lambda)
 \end{align*}
@@ -34,8 +34,6 @@ $$
     &= \mathbf{P\Lambda P}^\top
 \end{align*}
 $$
-
-Now, take the square root and it's done!
 
 ## Note2: trace properties
 
