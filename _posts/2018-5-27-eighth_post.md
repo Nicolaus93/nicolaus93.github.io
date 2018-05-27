@@ -28,3 +28,21 @@ $$
 $$
 
 Yayyy, we are done!
+
+## Note: inverse of a symmetric matrix
+
+What shown above is true also for the inverse of a symmetric matrix, since it is also symmetric. Indeed, given A nonsingular and symmetric:
+
+$ 
+\begin{align*}
+    I & = I^\top \\
+    AA^{-1} &= (AA^{-1})^\top && AA^{-1}=I \\
+    AA^{-1} &= (A^{-1})^\top A^\top && (AB)^\top = B^\top A^\top \\
+    A^{-1} A &= (A^{-1})^\top A^\top && AA^{-1} = A^{-1} A = I \\
+    A^{-1} A &= (A^{-1})^\top A && A^\top = A \\
+    A^{-1} A A^{-1} &= (A^{-1})^\top A A^{-1} && \text{multiply both sides by } A^{-1} \\
+    A^{-1} &= (A^{-1})^\top
+\end{align*}
+$
+
+Yayyy, we are done again!
