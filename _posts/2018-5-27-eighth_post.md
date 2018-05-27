@@ -17,8 +17,8 @@ $$
 \begin{align*}
     \mathbf{v}^\top H \mathbf{v} & = \mathbf{y}^\top \Lambda 
     \mathbf{y} \\
-    & = \lambda_{max} y_1^2 + \lambda_2 y_2^2 + \ldots + \lambda_n y_n^2 \\
-    & \leq \lambda_{max} (y_1^2 + y_2^2 + \ldots + y_n^2) && \Lambda \text{ is a diagonal matrix} \\
+    & = \lambda_{max} y_1^2 + \lambda_2 y_2^2 + \ldots + \lambda_n y_n^2  && \Lambda \text{ is a diagonal matrix} \\
+    & \leq \lambda_{max} (y_1^2 + y_2^2 + \ldots + y_n^2) \\
     & = \lambda_{max} \mathbf{y}^\top \mathbf{y} \\
     & = \lambda_{max} \mathbf{v}^\top Q Q^\top \mathbf{v} \\
     & = \lambda_{max} \mathbf{v}^\top \mathbf{v} && Q Q^\top=I \\
