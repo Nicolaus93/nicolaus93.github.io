@@ -23,6 +23,7 @@ $$
     & = \lambda_{max} \mathbf{v}^\top Q Q^\top \mathbf{v} \\
     & = \lambda_{max} \mathbf{v}^\top \mathbf{v} && Q Q^\top=I \\
     & = \lambda_{max} \|\mathbf{v} \|
+    & = \lambda_{max} && \| \mathbf{v} \| = 1
 \end{align*}
 $$
 
