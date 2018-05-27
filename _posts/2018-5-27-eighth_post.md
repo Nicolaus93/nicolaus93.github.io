@@ -29,7 +29,7 @@ $$
 
 Yayyy, we are done!
 
-# Note: inverse of a symmetric matrix
+## Note: inverse of a symmetric matrix
 
 What shown above is true also for the inverse of a symmetric matrix, since it is also symmetric. Indeed, given A nonsingular and symmetric:
 
