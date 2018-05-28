@@ -101,6 +101,8 @@ Red Garland - [Red Garland's Piano](https://www.youtube.com/watch?v=Fl6TAl2dXVc)
 
 Wynton Kelly - [Piano Interpretations](https://www.youtube.com/watch?v=Cr3ulhJIZRQ) (1951)
 
+Bill Evans - [You're Gonna Hear From Me](https://www.youtube.com/watch?v=i-g6mkS2gs4) (1969)
+
 # Youth
 Prince - [Jazz Funk Sessions 1977](https://www.youtube.com/watch?v=YQKl870Sm_g) (19 yo)
 
