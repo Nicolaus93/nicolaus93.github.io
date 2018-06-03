@@ -52,6 +52,10 @@ Himiko Kikuchi - [Flying Beagle](https://www.youtube.com/watch?v=zCSvGZiN784&t=2
 
 [Best of Japanese jazz fusion compilation 1](https://www.youtube.com/watch?v=zvoNHP5yIu4)
 
+# Australian
+
+Mildlife - [Phase](https://www.youtube.com/watch?v=AFp5hlwC0LQ)
+
 # Italiana
 
 Lucio Battisti - [Prendila così](https://www.youtube.com/watch?v=ND0RtdvZZ_U)
@@ -164,6 +168,8 @@ Mr Jukes - [God First](https://www.youtube.com/watch?v=oDVrAls0P0E&t=1s)
 Bad News Botanists - [Venomous Nightshade](https://www.youtube.com/watch?v=xmb5yjZnZdI&t=719s)
 
 Vulfpeck - [The Beautiful Game](https://www.youtube.com/watch?v=DRdnpKRvMwI)
+
+Masayasu Tzboguchi Trio - [Radio-Acoustique](https://www.youtube.com/watch?v=rGpZP1xWaak)
 
 # Rock
 
