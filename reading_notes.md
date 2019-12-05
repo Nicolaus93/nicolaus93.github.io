@@ -24,13 +24,13 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
 [Nati Srebro](https://ttic.uchicago.edu/~nati/Teaching/TTIC31120/2015/)
 
+[Servedio](http://www.cs.columbia.edu/~cs4252/) - Only handwritten notes
+
 # Online Learning
 
 [Abernethy](https://www.cc.gatech.edu/~jabernethy9/)
 
-[Servedio](http://www.cs.columbia.edu/~cs4252/)
-
-[Luo](http://www-bcf.usc.edu/~haipengl/courses/CSCI699/)
+[Luo](https://haipeng-luo.net/courses/CSCI699/index.html) - Introduction to Online Learning 2017
 
 [Rakhlin](http://www.mit.edu/~rakhlin/6.883/#notes)
 
