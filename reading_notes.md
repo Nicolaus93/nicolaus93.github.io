@@ -32,17 +32,17 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
 [Luo](https://haipeng-luo.net/courses/CSCI699/index.html) - Introduction to Online Learning 2017
 
-[Rakhlin](http://www.mit.edu/~rakhlin/6.883/#notes)
+[Rakhlin](http://www.mit.edu/~rakhlin/6.883/#notes) - Online Methods in Machine Learning, Theory and Applications
 
-[McMahan](https://courses.cs.washington.edu/courses/cse599s/14sp/index.html)
+[McMahan](https://courses.cs.washington.edu/courses/cse599s/14sp/index.html) - Online Learning 2014
 
-[Mansour](http://advanced-topics-ml-agt-tau-2018.wikidot.com/course-schedule)
+[Mansour](http://advanced-topics-ml-agt-tau-2018.wikidot.com/course-schedule) - Advanced Topics in ML and AGT 2018
 
-[Jamieson](https://courses.cs.washington.edu/courses/cse599i/18wi/)
+[Jamieson](https://courses.cs.washington.edu/courses/cse599i/18wi/) - Online and Adaptive Methods for Machine Learning 2018
 
-[Bansal](https://www.win.tue.nl/~nikhil/AU16/)
+[Bansal](https://www.win.tue.nl/~nikhil/AU16/) - Algorithms and Uncertainty 2016
 
-[Slivkins](https://www.cs.umd.edu/~slivkins/CMSC858G-fall16/)
+[Slivkins](https://www.cs.umd.edu/~slivkins/CMSC858G-fall16/) - Advanced Topics in Theory of Computing: Bandits, Experts, and Games 2016
 
 # Big Data & Sublinear Time Algorithms
 
