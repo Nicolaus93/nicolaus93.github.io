@@ -43,3 +43,19 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 [Bansal](https://www.win.tue.nl/~nikhil/AU16/)
 
 [Slivkins](https://www.cs.umd.edu/~slivkins/CMSC858G-fall16/)
+
+# Big Data & Sublinear Time Algorithms
+
+[Resources about Big Data courses](https://www.sketchingbigdata.org)
+
+[Andoni](http://www.mit.edu/~andoni/algoS19/index.html)
+
+[Andoni - Razenstheyn](https://ilyaraz.org/static/class/)
+
+[Woodruff](http://www.cs.cmu.edu/~dwoodruf/teaching/15859-fall19/index.html) - contains link to other courses
+
+[Robert Krauthgamer](http://www.wisdom.weizmann.ac.il/~robi/teaching/2018b-SublinearAlgorithms/)
+
+[Ronitt Rubinfeld](http://people.csail.mit.edu/ronitt/COURSE/S19/)
+
+[Eric Price](https://www.cs.utexas.edu/~ecprice/courses/sublinear/)
