@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a third year PhD student in computer science at the University of Milan!
 
 ### Member music?
 
-A place to include any other types of information that you'd like to include about yourself.
+I like muzik, pasta and running :D
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Send a message in a bottle through the Ocean hoping that it will reach me. Actually better in the Mediterranean Sea. Still the probability of success would be very low. Arbitrarily close to 0. 
