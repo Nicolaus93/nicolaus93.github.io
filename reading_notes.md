@@ -59,3 +59,13 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 [Ronitt Rubinfeld](http://people.csail.mit.edu/ronitt/COURSE/S19/)
 
 [Eric Price](https://www.cs.utexas.edu/~ecprice/courses/sublinear/)
+
+# Randomized Algorithms
+
+[James R. Lee](https://homes.cs.washington.edu/~jrl/teaching/cse525au16/index.htmlRandomized Algorithms) - Randomized algorithms and probabilistic analysis 2016 
+
+[Sariel Har-Peled](https://sarielhp.org/teach/13/b_574_rand_alg/) Randomized Algorithms 2014
+
+[Lap Chi Lau](http://appsrv.cse.cuhk.edu.hk/~chi/csc5450-2011/notes.html) - Randomness and computation
+
+[Eric Price](https://www.cs.utexas.edu/~ecprice/courses/randomized/) - Sublinear Algorithms 2016
