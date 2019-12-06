@@ -9,23 +9,23 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 <details>
   <summary>Learning Theory</summary>
   
-  [Computational Learning Theory](https://www.cs.ox.ac.uk/people/varun.kanade/teaching/CLT-MT2018/lectures/) - Varun Kanade 2018
+  * [Computational Learning Theory](https://www.cs.ox.ac.uk/people/varun.kanade/teaching/CLT-MT2018/lectures/) - Varun Kanade 2018
 
-  [Machine Learning Theory](https://people.cs.umass.edu/~akshay/courses/cs690m/) - Akshay Krishnamurthy 2017
+  * [Machine Learning Theory](https://people.cs.umass.edu/~akshay/courses/cs690m/) - Akshay Krishnamurthy 2017
 
-  [Machine Learning Theory](http://mjt.cs.illinois.edu/courses/mlt-f18/) (contains links to other courses) - Matus Telgarski 2018
+  * [Machine Learning Theory](http://mjt.cs.illinois.edu/courses/mlt-f18/) (contains links to other courses) - Matus Telgarski 2018
 
-  [Machine Learning Theory](http://www.cs.cornell.edu/courses/cs6783/2018sp/lectures.html) - Karthik Sridharan
+  * [Machine Learning Theory](http://www.cs.cornell.edu/courses/cs6783/2018sp/lectures.html) - Karthik Sridharan
 
-  [Statistical Learning Theory](https://drona.csa.iisc.ac.in/~shivani/Teaching/E0370/Aug-2011/index.html) - Shivani Agarwal 2011
+  * [Statistical Learning Theory](https://drona.csa.iisc.ac.in/~shivani/Teaching/E0370/Aug-2011/index.html) - Shivani Agarwal 2011
 
-  [Theoretical Machine Learning](https://www.cs.princeton.edu/courses/archive/spring19/cos511/schedule.html) - Robert Shapire 2019
+  * [Theoretical Machine Learning](https://www.cs.princeton.edu/courses/archive/spring19/cos511/schedule.html) - Robert Shapire 2019
 
-  [Topics in Artificial Intelligence (Learning Theory)](https://ambujtewari.github.io/teaching/LearningTheory-Spring2008/) - Ambuj Tewari 2008
+  * [Topics in Artificial Intelligence (Learning Theory)](https://ambujtewari.github.io/teaching/LearningTheory-Spring2008/) - Ambuj Tewari 2008
 
-  [Computational and Statistical Learning Theory](https://ttic.uchicago.edu/~nati/Teaching/TTIC31120/2015/) - Nati Srebro
+  * [Computational and Statistical Learning Theory](https://ttic.uchicago.edu/~nati/Teaching/TTIC31120/2015/) - Nati Srebro
 
-  [Introduction to Computational Learning Theory](http://www.cs.columbia.edu/~cs4252/) (only handwritten notes) - Rocco Servedio 2018
+  * [Introduction to Computational Learning Theory](http://www.cs.columbia.edu/~cs4252/) (only handwritten notes) - Rocco Servedio 2018
 
 </details>
 
