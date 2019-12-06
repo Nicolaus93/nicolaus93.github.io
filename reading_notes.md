@@ -117,7 +117,7 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   
   * [Algorithms and Uncertainty](https://www.win.tue.nl/~nikhil/AU16/) - Nikhil Bansal 2016
 
-  * [Efficient Algorithms and Data Structures II](http://www14.in.tum.de/lehre/2019SS/ea/index.html.en) - Harald Racke 2018
+  * [Efficient Algorithms and Data Structures II](http://www14.in.tum.de/lehre/2019SS/ea/index.html.en) - Harald Racke 2019
 
   * [Approximation Algorithms](https://www.cs.jhu.edu/~mdinitz/classes/ApproxAlgorithms/Spring2019/) - Michael Dinitz 2019
 
