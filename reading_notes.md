@@ -6,6 +6,8 @@ permalink: /reading_notes/
 
 This is the place where all the knowledge in Computer Science gets accumulated..
 
+# Machine Learning
+
 <details>
   <summary markdown='span'>Learning Theory</summary>
   
@@ -50,6 +52,8 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Introduction to Online Learning](https://parameterfree.com/lecture-notes-on-online-learning/) - Orabona 2019
 
 </details>
+
+# Computer Science
 
 <details>
   <summary markdown='span'>Big Data & Sublinear Time Algorithms</summary>
