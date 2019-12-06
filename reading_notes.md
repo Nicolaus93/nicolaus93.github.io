@@ -45,8 +45,6 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
   * [Online and Adaptive Methods for Machine Learning](https://courses.cs.washington.edu/courses/cse599i/18wi/) - Jamieson 2018
 
-  * [Algorithms and Uncertainty](https://www.win.tue.nl/~nikhil/AU16/) - Bansal 2016
-
   * [Slivkins](https://www.cs.umd.edu/~slivkins/CMSC858G-fall16/) - Advanced Topics in Theory of Computing: Bandits, Experts, and Games 2016
 
   * [Introduction to Online Learning](https://parameterfree.com/lecture-notes-on-online-learning/) - Orabona 2019
@@ -109,3 +107,32 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Sparse Approximations](https://www.cs.ubc.ca/~nickhar/W13/) - Nick Harvey 2012
   
   * [Iterative methods for graph algorithm and network analysis](http://cs-people.bu.edu/orecchia/CS591fa18/course.html) - Lorenzo Orecchia 2018
+  
+</details>
+  
+<details>
+  <summary markdown='span'>Online and Approximation Algorithms</summary>
+  
+  * [Online and Approximation algo](http://www14.in.tum.de/lehre/2017WS/oa/index.html.en) - Susanne Albers 2017
+  
+  * [Algorithms and Uncertainty](https://www.win.tue.nl/~nikhil/AU16/) - Bansal 2016
+
+  * [Efficient Algo II](http://www14.in.tum.de/lehre/2019SS/ea/uebung/index.html.en ) - Harald Racke 2018
+
+  * [Approximation Algorithms](https://www.cs.jhu.edu/~mdinitz/classes/ApproxAlgorithms/Spring2019/) - Michael Dinitz 2019
+
+  * [Approximation Algorithms and Hardness of Approximation](https://theory.epfl.ch/osven/courses/Approx13/) - Ola Svensson (maybe 2013)
+
+  * [Approximation Algorithms](http://www.cs.technion.ac.il/~rabani/236521.04.wi.html) - Yuval Rabani 
+  
+  * [Advanced Approximation Algorithms](http://www.cs.cmu.edu/~anupamg/adv-approx/) - Anupam Gupta and Ryan O'Donnell 2008
+ 
+  * [Approximation Algorithms](https://www2.cs.duke.edu/courses/fall17/compsci632/) - Debmalya Panigrahi 2017
+
+  * [Optimization and Algorithmic paradigms](https://people.eecs.berkeley.edu/~luca/cs261/) - Luca Trevisan 2011
+
+  * [Approximation Algorithms](http://pages.cs.wisc.edu/~shuchi/courses/880-S07/) - Shuchi Chawla 2007
+  
+  * [Recent Advances in Approximation Algorithms](https://homes.cs.washington.edu/~shayan/courses/approx/index.html) - Shayan Oveis Gharan 2015
+  
+</details>
