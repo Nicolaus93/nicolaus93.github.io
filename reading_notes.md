@@ -31,7 +31,7 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
 
 <details>
-  <summary>Online Learning</summary>
+  <summary markdown='span'>Online Learning</summary>
 
   * [Jake Abernethy](https://www.cc.gatech.edu/~jabernethy9/)
 
@@ -54,7 +54,7 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 </details>
 
 <details>
-  <summary>Big Data & Sublinear Time Algorithms</summary>
+  <summary markdown='span'>Big Data & Sublinear Time Algorithms</summary>
 
 [Resources about Big Data courses](https://www.sketchingbigdata.org)
 
@@ -73,7 +73,7 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 </details>
 
 <details>
-  <summary>Randomized Algorithms</summary>
+  <summary markdown='span'>Randomized Algorithms</summary>
 
 [Randomized algorithms and probabilistic analysis](https://homes.cs.washington.edu/~jrl/teaching/cse525au16/index.htmlRandomized Algorithms) - James R. Lee  2016 
 
