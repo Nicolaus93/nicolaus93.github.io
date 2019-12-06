@@ -115,7 +115,7 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   
   * [Online and Approximation algo](http://www14.in.tum.de/lehre/2017WS/oa/index.html.en) - Susanne Albers 2017
   
-  * [Algorithms and Uncertainty](https://www.win.tue.nl/~nikhil/AU16/) - Bansal 2016
+  * [Algorithms and Uncertainty](https://www.win.tue.nl/~nikhil/AU16/) - Nikhil Bansal 2016
 
   * [Efficient Algo II](http://www14.in.tum.de/lehre/2019SS/ea/uebung/index.html.en ) - Harald Racke 2018
 
