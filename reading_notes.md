@@ -84,3 +84,28 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Randomized Algorithms](https://www.cs.utexas.edu/~ecprice/courses/randomized/) - Eric Price 2016
 
 </details>
+
+<details>
+  <summary markdown='span'>Graph and Spectral Algorithms</summary>
+
+  * [Spectral algorithms](https://www.cc.gatech.edu/~rpeng/CS7540_S17/ ) - Georgia Tech 
+
+  * [Spectral Graph Theory](http://www.cs.yale.edu/homes/spielman/561/561schedule.html), Spielman 2018 (there are various edition of this course on his page)
+  
+  * [Spectral Graph Theory and Algorithmic Applications](http://web.stanford.edu/class/msande337/) - Amin Saberi
+  
+  * [Spectral Graph Theory](https://people.orie.cornell.edu/dpw/orie6334/Fall2016/) - David P. Williamson (contains links to other courses)
+
+  * [Spectral Graph Theory and the Laplacian Paradigm](http://www.cs.cmu.edu/afs/cs/academic/class/15859n-f18/schedule.html) - Gary Miller 2018
+
+  * [Graph algorithms](http://theory.stanford.edu/~virgi/cs267/index.html) - Virginia Vassilevska Williams 2016
+  
+  * [Algorithms for Graphs and Matrices](http://people.csail.mit.edu/virgi/6.890/) - Virginia Vassilevska Williams 
+  
+  * [Graphs, Linear Algebra, and Optimization](https://people.csail.mit.edu/madry/6S978/) - Aleksander Mądry 2015
+  
+  * [Graph algorithms](https://www2.cs.duke.edu/courses/spring17/compsci590.5/) - Debmalya Panigrahi 2017
+  
+  * [Sparse Approximations](https://www.cs.ubc.ca/~nickhar/W13/) - Nick Harvey 2012
+  
+  * [Iterative methods for graph algorithm and network analysis](http://cs-people.bu.edu/orecchia/CS591fa18/course.html) - Lorenzo Orecchia 2018
