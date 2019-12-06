@@ -8,23 +8,23 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
 # Learning Theory
 
-[Varun Kanade](https://www.cs.ox.ac.uk/people/varun.kanade/teaching/CLT-MT2018/lectures/)
+[Computational Learning Theory](https://www.cs.ox.ac.uk/people/varun.kanade/teaching/CLT-MT2018/lectures/) - Varun Kanade 2018
 
-[Akshay Krishnamurthy](https://people.cs.umass.edu/~akshay/courses/cs690m/)
+[Machine Learning Theory](https://people.cs.umass.edu/~akshay/courses/cs690m/) - Akshay Krishnamurthy 2017
 
-[Matus Telgarski](http://mjt.cs.illinois.edu/courses/mlt-f18/) - contains links to other courses
+[Machine Learning Theory](http://mjt.cs.illinois.edu/courses/mlt-f18/) (contains links to other courses) - Matus Telgarski 2018
 
-[Karthik Sridharan](http://www.cs.cornell.edu/courses/cs6783/2018sp/lectures.html)
+[Machine Learning Theory](http://www.cs.cornell.edu/courses/cs6783/2018sp/lectures.html) - Karthik Sridharan
 
-[Shivani Agarwal](https://drona.csa.iisc.ac.in/~shivani/Teaching/E0370/Aug-2011/index.html)
+[Statistical Learning Theory](https://drona.csa.iisc.ac.in/~shivani/Teaching/E0370/Aug-2011/index.html) - Shivani Agarwal 2011
 
-[Robert Shapire](https://www.cs.princeton.edu/courses/archive/spring19/cos511/schedule.html)
+[Theoretical Machine Learning](https://www.cs.princeton.edu/courses/archive/spring19/cos511/schedule.html) - Robert Shapire 2019
 
-[Ambuj Tewari](https://ambujtewari.github.io/teaching/LearningTheory-Spring2008/)
+[Topics in Artificial Intelligence (Learning Theory)](https://ambujtewari.github.io/teaching/LearningTheory-Spring2008/) - Ambuj Tewari 2008
 
-[Nati Srebro](https://ttic.uchicago.edu/~nati/Teaching/TTIC31120/2015/)
+[Computational and Statistical Learning Theory](https://ttic.uchicago.edu/~nati/Teaching/TTIC31120/2015/) - Nati Srebro
 
-[Servedio](http://www.cs.columbia.edu/~cs4252/) - Only handwritten notes
+[Introduction to Computational Learning Theory](http://www.cs.columbia.edu/~cs4252/) (only handwritten notes) - Rocco Servedio 2018
 
 # Online Learning
 
