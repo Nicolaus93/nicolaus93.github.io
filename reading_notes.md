@@ -56,31 +56,31 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 <details>
   <summary markdown='span'>Big Data & Sublinear Time Algorithms</summary>
 
-[Resources about Big Data courses](https://www.sketchingbigdata.org)
+  * [Resources about Big Data courses](https://www.sketchingbigdata.org)
 
-[Andoni](http://www.mit.edu/~andoni/algoS19/index.html)
+  * [Andoni](http://www.mit.edu/~andoni/algoS19/index.html)
 
-[Andoni - Razenstheyn](https://ilyaraz.org/static/class/)
+  * [Andoni - Razenstheyn](https://ilyaraz.org/static/class/)
 
-[Woodruff](http://www.cs.cmu.edu/~dwoodruf/teaching/15859-fall19/index.html) - contains link to other courses
+  * [Woodruff](http://www.cs.cmu.edu/~dwoodruf/teaching/15859-fall19/index.html) - contains link to other courses
 
-[Robert Krauthgamer](http://www.wisdom.weizmann.ac.il/~robi/teaching/2018b-SublinearAlgorithms/)
+  * [Robert Krauthgamer](http://www.wisdom.weizmann.ac.il/~robi/teaching/2018b-SublinearAlgorithms/)
 
-[Ronitt Rubinfeld](http://people.csail.mit.edu/ronitt/COURSE/S19/)
+  * [Ronitt Rubinfeld](http://people.csail.mit.edu/ronitt/COURSE/S19/)
 
-[Eric Price](https://www.cs.utexas.edu/~ecprice/courses/sublinear/)
+  * [Eric Price](https://www.cs.utexas.edu/~ecprice/courses/sublinear/)
 
 </details>
 
 <details>
   <summary markdown='span'>Randomized Algorithms</summary>
 
-[Randomized algorithms and probabilistic analysis](https://homes.cs.washington.edu/~jrl/teaching/cse525au16/index.htmlRandomized Algorithms) - James R. Lee  2016 
+  * [Randomized algorithms and probabilistic analysis](https://homes.cs.washington.edu/~jrl/teaching/cse525au16/index.htmlRandomized Algorithms) - James R. Lee  2016 
 
-[Randomized Algorithms](https://sarielhp.org/teach/13/b_574_rand_alg/) - Sariel Har-Peled 2014
+  * [Randomized Algorithms](https://sarielhp.org/teach/13/b_574_rand_alg/) - Sariel Har-Peled 2014
 
-[Randomness and computation](http://appsrv.cse.cuhk.edu.hk/~chi/csc5450-2011/notes.html) - Lap Chi Lau
+  * [Randomness and computation](http://appsrv.cse.cuhk.edu.hk/~chi/csc5450-2011/notes.html) - Lap Chi Lau
 
-[Randomized Algorithms](https://www.cs.utexas.edu/~ecprice/courses/randomized/) - Eric Price 2016
+  * [Randomized Algorithms](https://www.cs.utexas.edu/~ecprice/courses/randomized/) - Eric Price 2016
 
 </details>
