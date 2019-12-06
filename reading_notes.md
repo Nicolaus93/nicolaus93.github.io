@@ -7,7 +7,7 @@ permalink: /reading_notes/
 This is the place where all the knowledge in Computer Science gets accumulated..
 
 <details>
-  <summary># Learning Theory</summary>
+  <summary>*Learning Theory*</summary>
   
   [Computational Learning Theory](https://www.cs.ox.ac.uk/people/varun.kanade/teaching/CLT-MT2018/lectures/) - Varun Kanade 2018
 
