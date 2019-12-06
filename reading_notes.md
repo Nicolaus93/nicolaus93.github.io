@@ -28,21 +28,23 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
 # Online Learning
 
-[Abernethy](https://www.cc.gatech.edu/~jabernethy9/)
+[Jake Abernethy](https://www.cc.gatech.edu/~jabernethy9/)
 
-[Luo](https://haipeng-luo.net/courses/CSCI699/index.html) - Introduction to Online Learning 2017
+[Introduction to Online Learning](https://haipeng-luo.net/courses/CSCI699/index.html) - Haipeng Luo 2017
 
-[Rakhlin](http://www.mit.edu/~rakhlin/6.883/#notes) - Online Methods in Machine Learning, Theory and Applications
+[Online Methods in Machine Learning, Theory and Applications](http://www.mit.edu/~rakhlin/6.883/#notes) - Sasha Rakhlin
 
-[McMahan](https://courses.cs.washington.edu/courses/cse599s/14sp/index.html) - Online Learning 2014
+[Online Learning](https://courses.cs.washington.edu/courses/cse599s/14sp/index.html) - Brendan McMahan 2014
 
-[Mansour](http://advanced-topics-ml-agt-tau-2018.wikidot.com/course-schedule) - Advanced Topics in ML and AGT 2018
+[Advanced Topics in ML and AG](http://advanced-topics-ml-agt-tau-2018.wikidot.com/course-schedule) - Mansour 2018
 
-[Jamieson](https://courses.cs.washington.edu/courses/cse599i/18wi/) - Online and Adaptive Methods for Machine Learning 2018
+[Online and Adaptive Methods for Machine Learning](https://courses.cs.washington.edu/courses/cse599i/18wi/) - Jamieson 2018
 
-[Bansal](https://www.win.tue.nl/~nikhil/AU16/) - Algorithms and Uncertainty 2016
+[Algorithms and Uncertainty](https://www.win.tue.nl/~nikhil/AU16/) - Bansal 2016
 
 [Slivkins](https://www.cs.umd.edu/~slivkins/CMSC858G-fall16/) - Advanced Topics in Theory of Computing: Bandits, Experts, and Games 2016
+
+[Introduction to Online Learning](https://parameterfree.com/lecture-notes-on-online-learning/) - Orabona 2019
 
 # Big Data & Sublinear Time Algorithms
 
@@ -62,10 +64,10 @@ This is the place where all the knowledge in Computer Science gets accumulated..
 
 # Randomized Algorithms
 
-[James R. Lee](https://homes.cs.washington.edu/~jrl/teaching/cse525au16/index.htmlRandomized Algorithms) - Randomized algorithms and probabilistic analysis 2016 
+[Randomized algorithms and probabilistic analysis](https://homes.cs.washington.edu/~jrl/teaching/cse525au16/index.htmlRandomized Algorithms) - James R. Lee  2016 
 
-[Sariel Har-Peled](https://sarielhp.org/teach/13/b_574_rand_alg/) Randomized Algorithms 2014
+[Randomized Algorithms](https://sarielhp.org/teach/13/b_574_rand_alg/) - Sariel Har-Peled 2014
 
-[Lap Chi Lau](http://appsrv.cse.cuhk.edu.hk/~chi/csc5450-2011/notes.html) - Randomness and computation
+[Randomness and computation](http://appsrv.cse.cuhk.edu.hk/~chi/csc5450-2011/notes.html) - Lap Chi Lau
 
-[Eric Price](https://www.cs.utexas.edu/~ecprice/courses/randomized/) - Sublinear Algorithms 2016
+[Randomized Algorithms](https://www.cs.utexas.edu/~ecprice/courses/randomized/) - Eric Price 2016
