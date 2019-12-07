@@ -28,14 +28,14 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Computational and Statistical Learning Theory](https://ttic.uchicago.edu/~nati/Teaching/TTIC31120/2015/) - Nati Srebro
 
   * [Introduction to Computational Learning Theory](http://www.cs.columbia.edu/~cs4252/) (only handwritten notes) - Rocco Servedio 2018
+  
+  * [Machine Learning Theory](https://mltheory.github.io/CS7545/) - Jake Abernethy 2019
 
 </details>
 
 
 <details>
   <summary markdown='span'>Online Learning</summary>
-
-  * [Jake Abernethy](https://www.cc.gatech.edu/~jabernethy9/)
 
   * [Introduction to Online Learning](https://haipeng-luo.net/courses/CSCI699/index.html) - Haipeng Luo 2017
 
