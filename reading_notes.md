@@ -140,3 +140,20 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Recent Advances in Approximation Algorithms](https://homes.cs.washington.edu/~shayan/courses/approx/index.html) - Shayan Oveis Gharan 2015
   
 </details>
+
+<details>
+  <summary markdown='span'>Algorithmic Game Theory</summary>
+  
+  * [Algorithmic Game Theory and Data Science](http://www.vsyrgkanis.com/6853sp19/) - Constantinos Daskalakis & Vasilis Syrgkanis 2019
+  
+  * [Learning, Games, and Electronic Markets](https://www.cs.cornell.edu/courses/cs683/2007sp/) - Robert Kleinberg 2007
+  
+  * [Algorithms, Games, and Networks](https://www.cs.cmu.edu/~arielpro/15896/index.html) - Ariel Procaccia & Avrim Blum 2013
+  
+  * [Algorithmic Game Theory](http://timroughgarden.org/f13/f13.html) - Tim Roughgarden 2013
+  
+  * [Economics, AI, and Optimization](http://www.columbia.edu/~ck2945/courses/s20_8100/) - Christian Kroer 2020
+  
+  * [Algorithmic Game Theory](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf) - book by Nisan, Roughgarden, Tardos, Vazirani
+  
+>/details>
