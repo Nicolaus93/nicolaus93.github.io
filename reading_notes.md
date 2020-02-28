@@ -163,3 +163,50 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Algorithmic Game Theory](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf) - book by Nisan, Roughgarden, Tardos, Vazirani
   
 </details>
+
+# Optimization
+
+<details>
+  <summary markdown='span'>Mathematical Programming</summary>
+  
+  * [Mathematical Programming](https://people.orie.cornell.edu/shmoys/or630/notes-06/lec25.pdf) - David Shmoys (link to lecture 25)
+  
+  * [Polyhedral Techniques in Combinatorial Optimization Stanford](https://theory.stanford.edu/~jvondrak/MATH233B-2017/MATH233B.html) - Jan Vondrak 2017
+  
+  * [Linear and SemiDefinite Programming](http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15859-f11/www/) - Gupta & O'Donnell
+  
+  * [Algebraic Techniques and semidefinite programming](https://learning-modules.mit.edu/materials/index.html?uuid=/course/6/sp19/6.256#materials) - Pablo Parrilo
+  
+</details>
+
+<details>
+  <summary markdown='span'>Convex Optimization</summary>
+
+  * [Convexity and Optimization](https://cs.uwaterloo.ca/~lapchi/cs798/notes.html) - Lap Chi Lau
+  
+  * [Algorithms for Convex Optimization](https://nisheethvishnoi.wordpress.com/convex-optimization/) - Nisheet Vishnoi
+  
+  * [A Mini-Course on Convex Optimization](https://theory.epfl.ch/vishnoi/Nisheeth-VishnoiFall2014-ConvexOptimization.pdf) - Notes by Vishnoi
+  
+  * [Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html) - Aaron Sidford 2017
+  
+  * [Convex Optimization I](http://stanford.edu/class/ee364a/index.html) - Stephen Boyd & John Duchi
+
+  * [Convex Optimization II](http://web.stanford.edu/class/ee364b/) - John Duchi
+  
+  * [Convex Optimization](http://www.cs.cmu.edu/~pradeepr/convexopt/) - Pradeep Ravikumar & Aarti Singh 2017
+  
+  * [Convex Optimization and Approximation](https://ee227c.github.io) -  Moritz Hardt 2018
+  
+  * [Optimization for Machine Learning](https://github.com/epfml/OptML_course) - Martin Jaggi
+  
+  * [Convex Optimization](http://www.stat.cmu.edu/~ryantibs/convexopt-F18/) -  Ryan Tibshirani 2018 
+  
+  * [Optimization Methods in Statistics](https://ambujtewari.github.io/teaching/STATS608A-Fall2015/) - Ambuj Tewari 2015 (with link to other courses) 
+  
+  * [Cheat Sheet - series of posts](http://www.pokutta.com/blog/research/2018/12/07/cheatsheet-smooth-idealized.html) - Sebastian Pokutta
+
+  * [Advanced Structured Prediction and Optimization](http://www-labs.iro.umontreal.ca/~slacoste/teaching/ift6132/W20/lectures.html) - Simon Lacoste-Julien 2020
+
+
+</details>
