@@ -156,4 +156,4 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   
   * [Algorithmic Game Theory](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf) - book by Nisan, Roughgarden, Tardos, Vazirani
   
->/details>
+</details>
