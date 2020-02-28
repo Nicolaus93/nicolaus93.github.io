@@ -9,18 +9,13 @@ This is my first post and it's basically a test, I am trying to learn how to wri
 
 Everybody knows (hopefully) that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)^2]$, where $\mu=\mathrm{E}[X]$. So, how do we estimate in practice the variance related to some population?
 
+{:.image-wrapper}
 ![first image](/assets/variance.jpg)
 
 
 {:.image-caption}
 *A variance portrait from [Raffaello](https://it.wikipedia.org/wiki/Raffaello_Sanzio)*
 
-<dl>
-  <div class="image-wrapper" >
-    <img src="https://github.com/Nicolaus93/nicolaus93.github.io/blob/master/assets/variance.jpg" alt="Nice Variance"/>
-    <p class="image-caption">A variance portrait from <a href='https://it.wikipedia.org/wiki/Raffaello_Sanzio'>Raffaello</a></p>
-  </div>
-</dl>
 
 Assuming our population is represented by $X_1, X_2, ..., X_n $ independent and identically distributed random variables with $\mathrm{E}[X_i]=\mu$ and $\mathrm{Var}[X_i]=\sigma^2 < + \infty$, we set $ \bar{X}\_n=\frac{1}{n}\sum\_{i=1}^n X_i $. Then a well known estimator of variance is:
 
