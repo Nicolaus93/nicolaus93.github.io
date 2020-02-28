@@ -7,7 +7,7 @@ Multi-armed bandit algorithms are becoming more and more important in the field 
 
 <dl>
   <div class="image-wrapper" >
-    <img src="/assets/one_armed.jpeg" alt="One armed bandit"/>
+    <img src="{{ site.baseurl }}/assets/one_armed.jpeg" alt="One armed bandit"/>
     <p class="image-caption">Bandit since it steals your money!</p>
   </div>
 </dl>
