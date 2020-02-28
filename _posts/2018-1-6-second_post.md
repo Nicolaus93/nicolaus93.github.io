@@ -12,6 +12,13 @@ Multi-armed bandit algorithms are becoming more and more important in the field 
   </div>
 </dl>
 
+<dl>
+  <div class="image-wrapper" >
+    <img src={{ "/assets/one_armed.jpeg" | prepend: site.baseurl }} alt="One armed bandit"/>
+    <p class="image-caption">Bandit since it steals your money!</p>
+  </div>
+</dl>
+
 
 In the multi-armed bandit setting we have an agent which acts in rounds. Each round the agent selects one of the possible $K$ arms and collects a reward. His objective is to maximize the rewards collected over $n$ rounds. However, to characterize the behaviour of any strategy, we derive its (pseudo)-**regret** with respect to the an (unknown) optimal strategy which always selects the best arm. More specifically, if we denote by $X_{i,1}, X_{i, 2}, \ldots$ the rewards associated to arms $i=1, \ldots, K$ in $t=1,2,\ldots,n$ and the arm played by our strategy denoted by the index $I_t$, then we can define the pseudo-regret as follows:
 
