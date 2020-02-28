@@ -11,7 +11,7 @@ Everybody knows (hopefully) that the variance of a random variable $X$ is define
 
 <dl>
   <div class="image-wrapper" >
-    <img src="/assets/variance.jpg" alt="Nice Variance"/>
+    <img src="https://github.com/Nicolaus93/nicolaus93.github.io/blob/master/assets/variance.jpg" alt="Nice Variance"/>
     <p class="image-caption">A variance portrait from <a href='https://it.wikipedia.org/wiki/Raffaello_Sanzio'>Raffaello</a></p>
   </div>
 </dl>
