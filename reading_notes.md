@@ -30,6 +30,12 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Introduction to Computational Learning Theory](http://www.cs.columbia.edu/~cs4252/) (only handwritten notes) - Rocco Servedio 2018
   
   * [Machine Learning Theory](https://mltheory.github.io/CS7545/) - Jake Abernethy 2019
+  
+  * [Advanced Learning Theory](http://www.iliasdiakonikolas.org/teaching/Fall19/CS880.html) - Ilias Diakonikolas 2019
+  
+  * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) - Jerry Li 2019
+  
+  * [Robust Statistic](https://www.stat.berkeley.edu/~jsteinhardt/stat260/index.html) - Jacob Steinhardt 2019
 
 </details>
 
