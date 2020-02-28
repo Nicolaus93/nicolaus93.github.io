@@ -9,17 +9,11 @@ This is my first post and it's basically a test, I am trying to learn how to wri
 
 Everybody knows (hopefully) that the variance of a random variable $X$ is defined as $\mathrm{Var}[X]=\mathrm{E}[(X-\mu)^2]$, where $\mu=\mathrm{E}[X]$. So, how do we estimate in practice the variance related to some population?
 
-![this screenshot](/assets/variance.jpg)
+![first image](/assets/variance.jpg)
 
 
 {:.image-caption}
-*The caption for my image*
-
-.caption[
-**Fig. 1:** Image caption
-]
-
-]
+*A variance portrait from [Raffaello](https://it.wikipedia.org/wiki/Raffaello_Sanzio)*
 
 <dl>
   <div class="image-wrapper" >
