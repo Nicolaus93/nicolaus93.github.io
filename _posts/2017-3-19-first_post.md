@@ -11,6 +11,12 @@ Everybody knows (hopefully) that the variance of a random variable $X$ is define
 
 ![this screenshot](/assets/variance.jpg)
 
+.caption[
+**Fig. 1:** Image caption
+]
+
+]
+
 <dl>
   <div class="image-wrapper" >
     <img src="https://github.com/Nicolaus93/nicolaus93.github.io/blob/master/assets/variance.jpg" alt="Nice Variance"/>
