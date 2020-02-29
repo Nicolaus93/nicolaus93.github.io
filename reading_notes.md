@@ -37,7 +37,7 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   
   * [Robust Statistic](https://www.stat.berkeley.edu/~jsteinhardt/stat260/index.html) - Jacob Steinhardt 2019
   
-  * [The algorithmic foundations of Data Analysis](https://adaptivedataanalysis.com) - Aaron Roth 2017
+  * [The Algorithmic Foundations of Adaptive Data Analysis](https://adaptivedataanalysis.com) - Aaron Roth 2017
 
 </details>
 
