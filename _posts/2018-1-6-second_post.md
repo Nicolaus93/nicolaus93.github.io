@@ -5,10 +5,13 @@ title: Member lower bounds?
 
 Multi-armed bandit algorithms are becoming more and more important in the field of machine learning (at least to me, since I started a PhD on this topic :D). This funny name derives from the one-armed bandit, a name used for a lever operated slot machine (and apparently also for a [Belgian rock album](https://en.wikipedia.org/wiki/One_Armed_Bandit)).
 
+<center>
 
 | ![space-1.jpg](/assets/one_armed.jpeg) | 
 |:--:| 
 | *Bandit since it steals your money* |
+
+</center>
 
 <dl>
   <div class="image-wrapper" >
