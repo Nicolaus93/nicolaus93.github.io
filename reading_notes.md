@@ -36,6 +36,8 @@ This is the place where all the knowledge in Computer Science gets accumulated..
   * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) - Jerry Li 2019
   
   * [Robust Statistic](https://www.stat.berkeley.edu/~jsteinhardt/stat260/index.html) - Jacob Steinhardt 2019
+  
+  * [The algorithmic foundations of Data Analysis](https://adaptivedataanalysis.com) - Aaron Roth 2017
 
 </details>
 
