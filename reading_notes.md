@@ -87,6 +87,8 @@ This is the place where all the knowledge in Computer Science is accumulated..
 
   * [Advanced algorithm design](http://www.cs.princeton.edu/courses/archive/fall14/cos521/) - Sanjeev Arora 2014
   
+  * [TCS Toolkit](https://www.diderot.one/course/28/) - Ryan O'Donnell (with videos on Youtube) 2020
+  
 </details>
 
 
