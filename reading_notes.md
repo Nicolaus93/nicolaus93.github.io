@@ -41,7 +41,6 @@ This is the place where all the knowledge in Computer Science is accumulated..
 
 </details>
 
-
 <details>
   <summary markdown='span'>Online Learning</summary>
 
@@ -61,7 +60,35 @@ This is the place where all the knowledge in Computer Science is accumulated..
 
 </details>
 
+<details>
+  <summary markdown='span'>Reinforcement Learning</summary>
+
+  * [Foundations of Reinforcement Learning](https://sites.google.com/view/cjin/ele524) - Chi Jin (contains links to other courses)
+  
+</details>
+
+
 # Computer Science
+
+<details>
+  <summary markdown='span'>Toolkit</summary>
+
+  * [Great Ideas in Theoretical Computer Science](http://www.cs.cmu.edu/~aada/courses/15251s18/www/course-info.html) - CMU 2018
+
+  * [Mathematical toolkit](https://ttic.uchicago.edu/~madhurt/courses/toolkit2018/index.html) - Madhur Tulsiani 2018
+  
+  * [Topics in Theoretical Computer Science: An Algorithmist's Toolkit](http://stellar.mit.edu/S/course/18/sp14/18.409/materials.html) - Kelner 2014
+  
+  * [Efficient Algorithms and Intractable Problems](https://cs170.org) - Alessandro Chiesa & Jelani Nelson 2020
+  
+  * [Algorithms](https://ttic.uchicago.edu/~avrim/Algo19/) - Avrim Blum 2019
+  
+  * [Advanced Algorithms (and data structures)](http://people.seas.harvard.edu/~cs224/spring17/lec.html) - Jelani Nelson 2017
+
+  * [Advanced algorithm design](http://www.cs.princeton.edu/courses/archive/fall14/cos521/) - Sanjeev Arora 2014
+  
+</details>
+
 
 <details>
   <summary markdown='span'>Big Data & Sublinear Time Algorithms</summary>
