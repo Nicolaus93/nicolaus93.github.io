@@ -4,7 +4,7 @@ title: Notes
 permalink: /reading_notes/
 ---
 
-This is the place where all the knowledge in Computer Science gets accumulated..
+This is the place where all the knowledge in Computer Science is accumulated..
 
 # Machine Learning
 
