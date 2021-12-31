@@ -14908,11 +14908,11 @@ $$ x = R x' + t $$<p>where $R$ is a $ 3 \times 3 $ rotation matrix and $ t $ is 
 $$ f(A) = \frac{1}{n} \sum_{i=1}^n \| y_i - A y_i' \| $$<p>where $A$ belong to the set of real-valued 3 by 3 matrices.</p>
 <p>Is this a convex objective? It easy to verify. Consider the function $g_i(A) = \| y_i - A y_i' \|$. From the definition of convexity:</p>
 $$ 
-\begin{align}
-g_i(\lambda A_1 + (1-\lambda) A_2) &amp;= \| y_i - \lambda A_1  - (1-\lambda) A_2 y_i' \| \\
+\begin{align*}
+g_i(\lambda A_1 + (1-\lambda) A_2) &amp;= \| y_i - \lambda A_1 y_i'  - (1-\lambda) A_2 y_i' \| \\
     &amp;= \| \lambda (y_i - A_1 y_i') + (1-\lambda) (y_i - A_2 y_i') \| \\
     &amp;\leq \lambda \| y_i - A_1 y_i' \| + (1-\lambda) \| y_i - A_2 y_i' \| = \lambda g_i(A_1) + (1-\lambda) g_i(A_2)
-\end{align}
+\end{align*}
 $$<p>where we used the triangle inequality in the third step. Note that $f(A) = \frac{1}{n} \sum_{i=1}^n g_i(A)$ and the sum of convex functions is still a convex function. Hence, we have that $f$ is a convex function and we are guaranteed to find a global optimum.</p>
 <p>We didn't specify the norm used in $f$, but it could be any norm. For simplicity, we will consider the Euclidean norm. The correct matrix $R$ will be the one minimizing the objective function $f$,</p>
 $$ R = \arg\min_{A \in \mathbb{R}^{3 \times 3}} f(A) $$<p>To be more precise, the set over which we are minimizing should be the one of the rotation matrices in $3d$ space, i.e., orthogonal matrices 3 by 3 with determinant equal to 1. However, if we use a gradient-based method, this more accurate formulation would involve an expensive projection step on the mentioned set in every step of the optimization process. Also, I found out that the minimization problem above worked well for the task at hand.</p>
@@ -15064,9 +15064,9 @@ $$ R = \arg\min_{A \in \mathbb{R}^{3 \times 3}} f(A) $$<p>To be more precise, th
 
 
 
-<div id="29660ed9-fbda-4213-95a2-94aba180f227" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="566aed10-edf0-4211-be38-de4ea6d8cdbf" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('29660ed9-fbda-4213-95a2-94aba180f227');
+var element = document.getElementById('566aed10-edf0-4211-be38-de4ea6d8cdbf');
 /* Put everything inside the global mpl namespace */
 /* global mpl */
 window.mpl = {};
