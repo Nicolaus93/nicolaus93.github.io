@@ -13,26 +13,25 @@ title: My first sub-3 hours marathon
 * **Time:** 2:59:56
 
 ### Goals
-| Goal | Description | Completed? |
-|------|------------------|-------|
-| A    | Sub 3:09:33 (PB) | *Yes* |
-| B    | Sub 3    		  | *Yes* |
-| C    | Sub 2:53 		  | *No*  |
+| Goal |       Description       | Completed? |
+|------|-------------------------|------------|
+|   A  | Sub 3:09:33 (PB)        |   *Yes*    |
+|   B  | Sub 3                   |   *Yes*    |
+|   C  | Sub 2:53                |   *No*     |
 
 ### Splits
-| Kilometer | Time | min/km |
-|------|-------|------|
-| 5    | 20:58 | 4:12 |
-| 10   | 21:04 | 4:13 |
-| 15   | 21:41 | 4:21 |
-| 20   | 21:12 | 4:15 |
-| Half | 04:37 | 4:13 |
-| 25   | 16:47 | 4:19 |
-| 30   | 21:27 | 4:18 |
-| 35   | 21:17 | 4:16 |
-| 40   | 21:38 | 4:20 |
-| End  | 09:15 | 4:13 |
-
+| Kilometer |   Time  | min/km |
+|----------:|:-------:|:------:|
+|      5    |  20:58  |  4:12  |
+|     10    |  21:04  |  4:13  |
+|     15    |  21:41  |  4:21  |
+|     20    |  21:12  |  4:15  |
+|    Half   |  04:37  |  4:13  |
+|     25    |  16:47  |  4:19  |
+|     30    |  21:27  |  4:18  |
+|     35    |  21:17  |  4:16  |
+|     40    |  21:38  |  4:20  |
+|     End   |  09:15  |  4:13  |
 ### Training
 
 This was going to be my second marathon after Munich 2022. Last year, I tried to follow the 3h pacers from the start. Everything was going smooth, until I completely shut down around km 31-32. It was probably because of a combination of causes: lack of long runs during training, bad hydration/nutrition, flu during last taper week. Hence, my first concern this year was to avoid bonking after 30 kms. 
