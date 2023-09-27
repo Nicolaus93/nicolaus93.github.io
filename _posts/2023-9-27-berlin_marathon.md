@@ -4,16 +4,16 @@
 * **Date:** September 24, 2023
 * **Distance:** 42.195 Km
 * **Location:** Berlin
-* **Website:** https://berlin.r.mikatiming.com/2023/?content=detail&fpid=search&pid=search&idp=HCH3C0OH77B79&lang=EN_CAP&event=BML&event_main_group=BMW+BERLIN+MARATHON&search%5Bname%5D=Campolongo&search_event=BML
-* **Strava:** https://www.strava.com/activities/9910402390?share_sig=15B2CB921695804189&utm_medium=social&utm_source=ios_share
+* **Website:** [official result](https://berlin.r.mikatiming.com/2023/?content=detail&fpid=search&pid=search&idp=HCH3C0OH77B79&lang=EN_CAP&event=BML&event_main_group=BMW+BERLIN+MARATHON&search%5Bname%5D=Campolongo&search_event=BML)
+* **Strava:** [strava activity](https://www.strava.com/activities/9910402390?share_sig=15B2CB921695804189&utm_medium=social&utm_source=ios_share)
 * **Time:** 2:59:56
 
 ### Goals
 | Goal | Description | Completed? |
-|------|-------------|------------|
-| A | Sub 3:09:33 (PB) | *Yes* |
-| B | Sub 3    		   | *Yes* |
-| C | Sub 2:53 		   | *No*  |
+|------|------------------|-------|
+| A    | Sub 3:09:33 (PB) | *Yes* |
+| B    | Sub 3    		  | *Yes* |
+| C    | Sub 2:53 		  | *No*  |
 
 ### Splits
 | Kilometer | Time | min/km |
