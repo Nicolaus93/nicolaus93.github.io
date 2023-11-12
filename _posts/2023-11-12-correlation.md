@@ -43,3 +43,58 @@ $$
 since $X^′$ and $Y^′$ are normalized, hence $\bar{X}′=\bar{Y}′=0$. 
 
 Thus, we can effectively calculate the correlation coefficient between all rows $i$ and $j$ by using matrix multiplication on the normalized matrix $M'$.
+
+Here's a very basic and not optimized implementation in C++:
+
+{% highlight cpp%}
+
+std::vector<double> normalize(int ny, int nx, const float *data) {
+  std::vector<double> matrix(ny * nx, 0);
+
+  for (int i = 0; i < ny; ++i) {
+    double sum = 0, sum_sq = 0;
+    for (int j = 0; j < nx; ++j) {
+      double val = data[j + i * nx];
+      sum += val;
+      sum_sq += val * val;
+    }
+    double mean = sum / nx;
+    double variance = (sum_sq / nx) - (mean * mean);
+    double std = sqrt(variance * nx / (nx - 1));
+
+    for (int j = 0; j < nx; ++j) {
+      matrix[j + i * nx] = (data[j + i * nx] - mean) / std;
+    }
+  }
+
+  return matrix;
+}
+
+
+/*
+- input rows: 0 <= y < ny
+- input columns: 0 <= x < nx
+- element at row y and column x is stored in data[x + y*nx]
+- correlation between rows i and row j has to be stored in result[i + j*ny]
+*/
+void correlate(int ny, int nx, const float *data, float *result) {
+
+  auto mat = normalize(ny, nx, data);
+  for (int i = 0; i < ny; ++i) {
+    for (int j = i; j < ny; ++j) {
+      if (i == j) {
+        result[i + j * ny] = 1;
+        continue;
+      }
+      // row_i * row_j
+      double res = 0;
+      for (int k = 0; k < k < nx; ++k) {
+        res += mat[k + i * nx] * mat[k + j * nx];
+      }
+      result[i + j * ny] = res / (nx - 1);
+      result[j + i * ny] = res / (nx - 1);
+    }
+  }
+}
+{% endhighlight %}
+
