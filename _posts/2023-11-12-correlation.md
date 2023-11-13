@@ -26,7 +26,9 @@ Let's calculate the covariance of these normalized variables:
 
 $$ cov(X^′,Y^′) =\frac{1}{n−1} \sum_{i=1}^n (X_i' - \bar{X}')(Y_i' - \bar{Y}) = \frac{1}{n-1} \sum_{i=1}^n X_i' Y_i' $$
 
-Notice that this is a vector multiplication. Now, we define $M'$ as the matrix $M$ where all rows have been normalized. If we extend this to all indices $i$ and $j$ in $M'$, we can compute the covariance between rows by having a matrix $C$ defined as $C = \frac{1}{n-1} M' M^{' \top}$, a matrix multiplication!
+since $X^′$ and $Y^′$ are normalized (hence $\bar{X}′=\bar{Y}′=0$). Notice that this is a vector multiplication. 
+
+Now, we define $M'$ as the matrix $M$ where all rows have been normalized. If we extend this to all indices $i$ and $j$ in $M'$, we can compute the covariance between rows by having a matrix $C$ defined as $C = \frac{1}{n-1} M' M^{' \top}$, a matrix multiplication!
 
 On the other hand, we can also expand the covariance of the normalized variables to get:
 
@@ -40,11 +42,9 @@ cov(X^′,Y^′) &=\frac{1}{n−1} \sum_{i=1}^n (X_i' - \bar{X}')(Y_i' - \bar{Y}
 \end{align}
 $$
 
-since $X^′$ and $Y^′$ are normalized, hence $\bar{X}′=\bar{Y}′=0$. 
-
 Thus, we can effectively calculate the correlation coefficient between all rows $i$ and $j$ by using matrix multiplication on the normalized matrix $M'$.
 
-Here's a very basic and not optimized implementation in C++:
+Here's a very basic and not optimized implementation in C++, where the observation matrix M is stored in [row-major format](https://en.wikipedia.org/wiki/Row-_and_column-major_order):
 
 {% highlight cpp%}
 
