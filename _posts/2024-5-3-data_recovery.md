@@ -136,3 +136,4 @@ The nice thing about `ddrescue` is that if you interrupt the process and then yo
 Surprise surprise, this time photorec was muuuuch faster and it started recovering jpeg files right away! After roughly 6 hours, the process completed and I was 
 actually able to recover ~30k photos! 
 
+![image](/assets/photorec.png)
