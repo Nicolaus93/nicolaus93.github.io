@@ -132,6 +132,7 @@ Copying non-tried blocks... Pass 3
 ```
 
 But after getting to 62%, the reading process got extremely slow (just look at the remaining time). At this point, I decided to cancel the run and try again using photorec.
+
 The nice thing about `ddrescue` is that if you interrupt the process and then you call it again with the same logfile, it won't start from scratch, but just resume from where it stopped.
 Surprise surprise, this time photorec was muuuuch faster and it started recovering jpeg files right away! After roughly 6 hours, the process completed and I was 
 actually able to recover ~30k photos! 
@@ -140,3 +141,5 @@ actually able to recover ~30k photos!
 
 In the end this costed me 0€ but a week of evening trials and errors. If I knew from the beginning how to proceed, probably I could have done it in 1 night..
 Anyway, this would have been certainly more expensive if done at a professional data recovery service (in Munich prices start from ~250€). I think it's only fair to support useful open-source projects, that's why I donated 25€ to [ddrescue](https://www.gnu.org/software/ddrescue/) and 25€ to [testdisk/photorec](https://www.cgsecurity.org/Download_and_donate.php/testdisk-).
+
+**Update**: Antonio Diaz Diaz (developer of ddrescue) was very kind and replied back thanking me for the support. That was unexpected.. Needless to say, support open source! 
