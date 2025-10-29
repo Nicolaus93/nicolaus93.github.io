@@ -92,17 +92,17 @@ This is just my analysis and of course I'm very biased. I asked Claude an opinio
 
 3. The illness probably had some impact
 
-But honestly, I'm skeptical it was the main factorL:
+But honestly, I'm skeptical it was the main factor:
 - Your HR during Chicago was similar to (or even slightly lower than) your half marathon in much worse conditions
 - This suggests your cardiovascular system was fine
 - The illness gave you a convenient explanation, but the data points elsewhere
 
-This is an intersting take that I didn't take into consideration. However, I'm not fully convinced. This is more or less the nutrition plan that I simulated during training. It's probably not perfect but it's definitely an improvement compared to my past attempts. In my first marathon I didn't eat almost anything and of course I bonked after ~30 kms. In the 2023 previous PB, I improvised the nutrition on race day and it somehow worked, but it wasn't planned so much in advance. This year I had a plan of eating a gel every 30/40 mins and I followed it consistently. While not perfect (I should try to eat at least 60 grams/hour), I believe it's still an improvement compared to my past attempts. But it's definitely something to keep in mind. 
-
 ### What the data really shows
 
 Your comparison to Berlin 2023 is telling: same HR zones, similar cadence maintenance there vs. progressive decline in Chicago. The key difference? You likely fueled better in Berlin. Your body had the aerobic capacity (proven by stable HR), but simply ran out of fuel to maintain the muscular output.
-Bottom line: I think you bonked due to nutrition/hydration, not illness. The pacing made it worse, but proper fueling might have saved the race even with the aggressive start.Retry
+Bottom line: I think you bonked due to nutrition/hydration, not illness. The pacing made it worse, but proper fueling might have saved the race even with the aggressive start.
+
+This is an intersting take that I didn't take into consideration. However, I'm not fully convinced. This is more or less the nutrition plan that I simulated during training. It's probably not perfect but it's definitely an improvement compared to my past attempts. In my first marathon I didn't eat almost anything and of course I bonked after ~30 kms. In the 2023 previous PB, I improvised the nutrition on race day and it somehow worked, but it wasn't planned so much in advance. This year I had a plan of eating a gel every 30/40 mins and I followed it consistently. While not perfect (I should try to eat at least 60 grams/hour), I believe it's still an improvement compared to my past attempts. But it's definitely something to keep in mind. 
 
 # What's next?
 
