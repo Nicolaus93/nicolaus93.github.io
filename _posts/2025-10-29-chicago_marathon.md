@@ -14,25 +14,7 @@ I will start with the race. The course is a beautiful one, you run in the middle
 
 For the lazy ones, these are my official splits:
 
-| Split | Time | Diff | min/km | km/h |
-|-------|--------|-------|--------|-------|
-| 05K | 00:20:05 | 20:05 | 04:01 | 14.95 |
-| 10K | 00:40:43 | 20:38 | 04:08 | 14.53 |
-| 15K | 01:01:14 | 20:31 | 04:07 | 14.63 |
-| 20K | 01:21:53 | 20:39 | 04:08 | 14.52 |
-| HALF | 01:26:30 | 04:37 | 04:13 | 14.28 |
-| 25K | 01:42:38 | 16:08 | 04:09 | 14.51 |
-| 30K | 02:03:52 | 21:14 | 04:15 | 14.13 |
-| M20 | 02:13:09 | 09:17 | 04:16 | 14.08 |
-| M21 | 02:20:08 | 06:59 | 04:21 | 13.84 |
-| 35K | 02:25:19 | 05:11 | 04:18 | 14.00 |
-| M22 | 02:27:04 | 01:45 | 04:24 | 13.66 |
-| M23 | 02:34:06 | 07:02 | 04:22 | 13.74 |
-| M24 | 02:41:09 | 07:03 | 04:24 | 13.67 |
-| 40K | 02:47:11 | 06:02 | 04:22 | 13.77 |
-| M25 | 02:48:14 | 01:03 | 04:42 | 12.81 |
-| M25.2 | 02:49:49 | 01:35 | 04:49 | 12.48 |
-| Finish | 02:57:04 | 07:15 | 04:25 | 13.59 |
+![image.png](/assets/photo_2025-10-29_23-31-52.jpg)
 
 You can clearly see a trend here, and it's not a good one unfortunately. My pace goes down as the race progresses. I ran the first half in 1:26:30 and the second half in 1:30:34, that's a big positive split! I clearly went out too fast but I'm happy I managed to not bonk, even though I had to slow down significantly (especially towards the end). 
 Some smaller details about the race:
