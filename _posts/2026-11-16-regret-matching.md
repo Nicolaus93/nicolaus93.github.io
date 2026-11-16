@@ -17,7 +17,7 @@ uniformly over convex objectives with bounded stochastic subgradients, without k
 
 The important point is that this is a guarantee about adaptation, not a literal inventory of the algorithm's inputs. An algorithm can be parameter-free in this technical sense and still have quantities to tune, or require information about the objective. As the remark explains, the name comes from the fact that many algorithms achieving this guarantee happen to have no learning rate; that is not true of all of them.
 
-Coming back to regret matching, the absence of a learning rate and a regret bound that holds simultaneously for all competitors do not, by themselves, establish this stronger kind of optimal adaptation. In fact, RM does not achieve the optimal dependence on the number of experts: its worst-case regret scales as $$\sqrt{dT}$$ rather than $$\sqrt{T\log d}$$, where $$d$$ is the number of experts. Both RM and RM+ nevertheless have a useful invariance: they are scale-free. Section [5](#sec-scalefree) makes this distinction precise. In the remaining of the post, I assume that losses are bounded in [0, 1]. However, if losses lie in an interval of width $L$, the standard bound becomes $L\sqrt{dT}$, but the algorithm doesn't need to know $L$!
+Coming back to regret matching, the absence of a learning rate and a regret bound that holds simultaneously for all competitors do not, by themselves, establish this stronger kind of optimal adaptation. In fact, RM does not achieve the optimal dependence on the number of experts: its worst-case regret scales as $$\sqrt{dT}$$ rather than $$\sqrt{T\log d}$$, where $$d$$ is the number of experts. Both RM and RM+ nevertheless have a useful invariance: they are scale-free. Section [5](#sec-scalefree) makes this distinction precise. In the remaining of the post, I assume that losses are bounded in $$[0,1]$$. However, if losses lie in an interval of width $$L$$, the standard bound becomes $$L\sqrt{dT}$$, but the algorithm doesn't need to know $$L$$!
 
 This post develops the updates and regret guarantees directly, with particular attention to what clipping changes.
 
@@ -224,19 +224,24 @@ In words, a coordinate is corrected only when its updated state is zero.
 The other cancellation we need is $$\langle \boldsymbol{Q}_{t-1},\boldsymbol{r}_t\rangle=0$$. If $$\boldsymbol{Q}_{t-1}\ne\mathbf{0}$$, the RM+ normalization gives $$\boldsymbol{Q}_{t-1}=\lVert \boldsymbol{Q}_{t-1}\rVert_1\boldsymbol{x}_t$$. Therefore
 
 $$
-\begin{aligned}
 \langle \boldsymbol{Q}_{t-1},\boldsymbol{r}_t\rangle
-&=\lVert \boldsymbol{Q}_{t-1}\rVert_1\langle \boldsymbol{x}_t,\boldsymbol{r}_t\rangle\\
-&=\lVert \boldsymbol{Q}_{t-1}\rVert_1
-\left(\langle \boldsymbol{x}_t,\boldsymbol{\ell}_t\rangle
-\langle \boldsymbol{x}_t,\mathbf{1}\rangle
--\langle \boldsymbol{x}_t,\boldsymbol{\ell}_t\rangle\right)=0,
+=\lVert \boldsymbol{Q}_{t-1}\rVert_1\langle \boldsymbol{x}_t,\boldsymbol{r}_t\rangle = 0
+$$
+
+from [(3)](#eq-identities). If $$\boldsymbol{Q}_{t-1}=\mathbf{0}$$, the inner product is zero directly, regardless of the fallback distribution.
+
+Recall from [(3)](#eq-identities) that $$\operatorname{Reg}_T(\boldsymbol{q})=\langle \boldsymbol{q},\boldsymbol{R}_T\rangle$$. Since [(9)](#eq-state) gives $$\boldsymbol{R}_T=\boldsymbol{Q}_T-\boldsymbol{C}_T$$, linearity of the inner product and Cauchy–Schwarz give
+
+$$
+\begin{aligned}
+\operatorname{Reg}_T(\boldsymbol{q})
+&=\langle \boldsymbol{q},\boldsymbol{Q}_T\rangle-\langle \boldsymbol{q},\boldsymbol{C}_T\rangle\\
+&\le\lVert \boldsymbol{q}\rVert_2\lVert \boldsymbol{Q}_T\rVert_2
+-\langle \boldsymbol{q},\boldsymbol{C}_T\rangle.
 \end{aligned}
 $$
 
-because $$\langle \boldsymbol{x}_t,\mathbf{1}\rangle=1$$. If $$\boldsymbol{Q}_{t-1}=\mathbf{0}$$, the inner product is zero directly, regardless of the fallback distribution.
-
-To obtain the squared-norm identity, expand the norm of the unprojected update in two ways. First, the cancellation $$\langle \boldsymbol{Q}_{t-1},\boldsymbol{r}_t\rangle=0$$ gives
+This shows why we need to control $$\lVert \boldsymbol{Q}_T\rVert_2$$: it determines the regret bound, while the nonnegative quantity $$\langle \boldsymbol{q},\boldsymbol{C}_T\rangle$$ can only improve it. We will control the norm by analyzing its square. First, the cancellation $$\langle \boldsymbol{Q}_{t-1},\boldsymbol{r}_t\rangle=0$$ gives
 
 $$
 \begin{aligned}
@@ -269,14 +274,15 @@ $$
 \tag{10}
 $$
 
-Recall from [(3)](#eq-identities) that $$\operatorname{Reg}_T(\boldsymbol{q})=\langle \boldsymbol{q},\boldsymbol{R}_T\rangle$$. Since [(9)](#eq-state) gives $$\boldsymbol{R}_T=\boldsymbol{Q}_T-\boldsymbol{C}_T$$, linearity of the inner product implies
+Telescoping [(10)](#eq-energy) from $$\boldsymbol{Q}_0=\mathbf{0}$$ gives the quantity we needed:
 
 $$
-\operatorname{Reg}_T(\boldsymbol{q})=\langle \boldsymbol{q},\boldsymbol{Q}_T-\boldsymbol{C}_T\rangle
-=\langle \boldsymbol{q},\boldsymbol{Q}_T\rangle-\langle \boldsymbol{q},\boldsymbol{C}_T\rangle.
+\lVert \boldsymbol{Q}_T\rVert_2^2
+=\sum_{t=1}^T\left(\lVert \boldsymbol{r}_t\rVert_2^2-\lVert \boldsymbol{c}_t\rVert_2^2\right)
+\le\sum_{t=1}^T\lVert \boldsymbol{r}_t\rVert_2^2.
 $$
 
-Subtracting the accumulated clipping correction therefore recovers actual regret from the clipped state. Applying Cauchy–Schwarz and telescoping [(10)](#eq-energy) from $$\boldsymbol{Q}_0=\mathbf{0}$$ now yields
+Taking the square root and substituting into the Cauchy–Schwarz bound above yields
 
 <a id="eq-plusguarantee"></a>
 
