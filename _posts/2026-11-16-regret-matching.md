@@ -68,7 +68,7 @@ The second follows immediately from $$\langle \boldsymbol{x}_t,\mathbf1\rangle=1
 
 ## 2. Regret matching: a proof from the book
 
-For a vector $$\boldsymbol{v}$$, let $$\left[\boldsymbol{v}\right]_+$$ denote its coordinatewise positive part. Write $$\mathcal N(\boldsymbol{v})=\boldsymbol{v}/\lVert \boldsymbol{v}\rVert_1$$ for a nonzero nonnegative vector $$\boldsymbol{v}$$. When $$\boldsymbol{v}=\mathbf{0}$$, fix a fallback distribution, say the uniform distribution. Regret matching originates with Hart and Mas-Colell [1](#ref-hart2000). Here we use its external-regret version, which competes with fixed experts. Ordinary regret matching (RM) is
+For a vector $$\boldsymbol{v}$$, let $$\left[\boldsymbol{v}\right]_+$$ denote its coordinatewise positive part. Write $$\mathcal N(\boldsymbol{v})=\boldsymbol{v}/\lVert \boldsymbol{v}\rVert_1$$ for a nonzero nonnegative vector $$\boldsymbol{v}$$. When $$\boldsymbol{v}=\mathbf{0}$$, fix a fallback distribution, say the uniform distribution. Regret matching was first introduced by Hart and Mas-Colell [1](#ref-hart2000). Here we use its external-regret version, which competes with fixed experts. Ordinary regret matching (RM) is
 
 <a id="eq-rm"></a>
 
@@ -79,8 +79,6 @@ $$
 $$
 
 An expert gets probability proportional to how much better it would have done so far. Experts with nonpositive cumulative regret get no probability, unless the whole positive part vanishes. Crucially, negative coordinates are kept in the state $$\boldsymbol{R}_t$$. An expert that performed badly in the past must work off that deficit before receiving positive probability again.
-
-Regret matching can also be seen as the polynomially weighted average forecaster with $$p=2$$.
 
 ### The scalar positive-part inequality
 
