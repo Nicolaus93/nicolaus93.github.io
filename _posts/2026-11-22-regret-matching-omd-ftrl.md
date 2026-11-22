@@ -192,7 +192,7 @@ $$
 \tag{5}
 $$
 
-If all regret increments vanish, the bound holds directly. Otherwise the minimizer is $$\alpha=\eta\sqrt{\sum_t\lVert \boldsymbol{r}_t\rVert_2^2}/\lVert \boldsymbol{q}\rVert_2$$. This is a comparator choice in the analysis, not an algorithm parameter: the same run satisfies the bound simultaneously for every $$\boldsymbol{q}$$. The last inequality uses $$|r_{t,i}|\le1$$. Thus the standard FTRL guarantee and the orthant-to-simplex reduction recover the bound from the [first post](/regret-matching/) for every common fixed $$\eta>0$$.
+If all regret increments vanish, the bound holds directly. Otherwise the minimizer is $$\alpha=\eta\sqrt{\sum_t\lVert \boldsymbol{r}_t\rVert_2^2}/\lVert \boldsymbol{q}\rVert_2$$. This is a comparator choice in the analysis, not an algorithm parameter: the same run satisfies the bound simultaneously for every $$\boldsymbol{q}$$. The last inequality uses $$\lvert r_{t,i}\rvert\le1$$. Thus the standard FTRL guarantee and the orthant-to-simplex reduction recover the bound from the [first post](/regret-matching/) for every common fixed $$\eta>0$$.
 
 ## 5. Regret matching+ through OMD
 
@@ -244,7 +244,7 @@ $$
 \frac1T\sum_{t=1}^T\lVert \boldsymbol{r}_t\rVert_2^2<\ln n.
 $$
 
-For example, if the expert losses have range at most $$\varepsilon$$ on every round, then $$|r_{t,i}|\le\varepsilon$$ and the bound is at most $$\varepsilon\sqrt{nT}$$. This improves on the benchmark when $$\varepsilon<\sqrt{\ln n/n}$$. Alternatively, if $$\lVert \boldsymbol{r}_t\rVert_2^2\le k$$ on every round, as can happen when few coordinates contribute appreciably, the bound is $$\sqrt{kT}$$ and is smaller when $$k<\ln n$$. In the worst case the squared norm can be of order $$n$$, giving the familiar $$\sqrt{nT}$$ bound.
+For example, if the expert losses have range at most $$\varepsilon$$ on every round, then $$\lvert r_{t,i}\rvert\le\varepsilon$$ and the bound is at most $$\varepsilon\sqrt{nT}$$. This improves on the benchmark when $$\varepsilon<\sqrt{\ln n/n}$$. Alternatively, if $$\lVert \boldsymbol{r}_t\rVert_2^2\le k$$ on every round, as can happen when few coordinates contribute appreciably, the bound is $$\sqrt{kT}$$ and is smaller when $$k<\ln n$$. In the worst case the squared norm can be of order $$n$$, giving the familiar $$\sqrt{nT}$$ bound.
 
 Small actual regret does not necessarily make this upper bound small: negative regrets also contribute their squares. On a round where $$\mathcal{A}$$ assigns all probability to a zero-loss expert and every other expert has loss one, its regret to that expert is zero, but $$\lVert \boldsymbol{r}_t\rVert_2^2=n-1$$. Thus the second-order quantity measures squared differences from all experts, not just performance relative to the best one.
 
