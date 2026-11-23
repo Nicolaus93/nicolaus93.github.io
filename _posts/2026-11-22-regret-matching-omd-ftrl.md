@@ -5,7 +5,7 @@ title: "Regret Matching through OMD and FTRL"
 
 {% raw %}
 
-The Riemann hypothesis has probably been proved. Whatever, as someone else said on X, I've become comfortably numb. It would have been much of a bigger deal one year or even six months ago. Now? Not so much. However, the biggest takeaway for me is that with a relatively cheap subscription (I don't even have a Pro ChatGPT one), one can get pretty far. I feel that LLMs still need to be guided, but with the right questions they're for sure much faster than their meat proxy at finding connections and solving theoretical problems. They're also pretty good for learning new topics. I continued my exploration of the Regret Matching algorithm. In [*Regret Matching, with and without the Plus*](/the last post/), we derived regret guarantees for RM and RM+ directly from their updates. Neither algorithm asked for a learning rate. This follow-up explains how both arise from classical optimization methods like mirror descent and Follow-The-Regularized-Leader.  
+The Riemann hypothesis has probably been proved. Whatever, as someone else said on X, I've become comfortably numb. It would have been much of a bigger deal one year or even six months ago. Now? Not so much. However, the biggest takeaway for me is that with a relatively cheap subscription (I don't even have a Pro ChatGPT one), one can get pretty far. I feel that LLMs still need to be guided, but with the right questions they're for sure much faster than their meat proxy at finding connections and solving theoretical problems. They're also pretty good for learning new topics and I indeed continued my exploration of the Regret Matching algorithm. In [*Regret Matching, with and without the Plus*](/the last post/), we derived regret guarantees for RM and RM+ directly from their updates. This follow-up explains how both arise from classical optimization methods like mirror descent and Follow-The-Regularized-Leader.
 
 ## 1. The general OMD and FTRL updates
 
@@ -162,7 +162,7 @@ $$
 
 with the same fallback when all weights vanish. This is exactly RM. The common $$\eta$$ scales the auxiliary weights and cancels from the played distribution. Farina, Kroer, and Sandholm [2](#ref-farina) give this connection between regret matching and FTRL.
 
-The constant-step-size specialization of Orabona's Corollary 7.6 [1, Section 7.2, p. 102](#ref-orabona) gives
+For the regret bound, the constant-step-size specialization of Orabona's Corollary 7.6 [1, Section 7.2, p. 102](#ref-orabona) gives
 
 $$
 \sum_{t=1}^T\langle -\boldsymbol{r}_t,\boldsymbol{w}_t-\boldsymbol{u}\rangle
@@ -261,7 +261,7 @@ $$
  P_T=\sum_{t=1}^{T-1}\lVert \boldsymbol{q}_{t+1}-\boldsymbol{q}_t\rVert_2.
 $$
 
-Ordinary RM need not have sublinear dynamic regret even when the comparator switches only once. Let $$T=2m$$ for an integer $$m\ge1$$, use two experts and a uniform initial fallback, and choose the loss sequence
+Ordinary RM doesn't have sublinear dynamic regret even when the comparator switches only once. Let $$T=2m$$ for an integer $$m\ge1$$, use two experts and a uniform initial fallback, and choose the loss sequence
 
 $$
 \boldsymbol{\ell}_t=\begin{cases}
@@ -292,7 +292,7 @@ $$
 
 The negative balance retained by RM delays adaptation for the entire second block. On the other hand, RM+ discards such negative balances.
 
-By the way, it is easy to verify (aka one more prompt) that the same loss sequence also gives linear dynamic regret for ordinary exponential weights. Additional exploration can address this, as in Herbster and Warmuth's fixed-share algorithm.
+By the way, it is easy to verify (aka one more prompt) that the same loss sequence also gives linear dynamic regret for ordinary exponential weights. Additional exploration can address this, as in Herbster and Warmuth's fixed-share algorithm [5](#ref-herbster-warmuth).
 
 Consider now the ordinary Euclidean RM+ algorithm, with zero initial state and without restarting or averaging its predictions.
 Use the Euclidean OMD representation from Section 5:
@@ -359,7 +359,7 @@ $$
 \end{aligned}
 $$
 
-where the last step uses $$\lVert \boldsymbol{q}_T\rVert_2\le1$$ and $$E_t\le E_T$$. The common step size $$\eta$$ has canceled from the bound, just as it cancels from the normalized predictions. This is not surprising once one realizes that RM+ is mirror descent with Euclidean Bregman divergence (aka gradient descent). The same bound applies in general for gradient descent as first shown by Zinkevich in his seminal paper on the subject. In particular, for a comparator that switches experts at most $$k$$ times, $$P_T\le\sqrt{2}\,k$$, so the bound gives dynamic regret at most $$(1+\sqrt{2}\,k)\sqrt{E_T}$$. With some work (aka one prompt), one can easily recover the exact constant in Theorem 2 of [3](#ref-houlimit), which gives $$(k+1)L\sqrt{nT}$$ for $$k$$ switches and per-round loss range at most $$L$$.
+where the last step uses $$\lVert \boldsymbol{q}_T\rVert_2\le1$$ and $$E_t\le E_T$$. The common step size $$\eta$$ has canceled from the bound, just as it cancels from the normalized predictions. This is not surprising once one realizes that RM+ is mirror descent with Euclidean Bregman divergence (aka gradient descent). Zinkevich [6, Section 2.2](#ref-zinkevich) gives a related path-length bound for online projected gradient descent. In particular, for a comparator that switches experts at most $$k$$ times, $$P_T\le\sqrt{2}\,k$$, so the bound gives dynamic regret at most $$(1+\sqrt{2}\,k)\sqrt{E_T}$$. With some work (aka one prompt), one can easily recover the exact constant in Theorem 2 of [3](#ref-houlimit), which gives $$(k+1)L\sqrt{nT}$$ for $$k$$ switches and per-round loss range at most $$L$$.
 
 ## 8. Discussion
 
@@ -367,7 +367,7 @@ Looking at the algorithms, FTRL accumulates the original increments before clipp
 
 In general, ordinary regret matching is the $$p=2$$ case of the $$p$$-norm algorithms. The same choice recovers RM+ in the OMD construction. Choosing $$p=2\ln n$$ for $$n\ge3$$, where $$n$$ is the number of experts, gives the optimal worst-case regret order $$O(\sqrt{T\ln n})$$ for both constructions. We presented here the case with $$p=2$$ since it's the most widely known and gives rise to effective and practical algorithms. The common FTRL and OMD framework makes it easier to see where the updates come from and how to extend them. For example, Farina, Kroer, and Sandholm [2](#ref-farina) use it to develop predictive variants of both algorithms.
 
-Several features may help explain the strong practical performance of RM+ [3](#ref-houlimit). Like RM, it needs no learning-rate tuning, is scale-free under a common positive rescaling of the losses, and is straightforward to implement. RM+ also tracks changing comparators with its usual update. Ordinary RM and exponential weights can incur linear regret after a single switch, as the example above shows (for exponential weights, this is fixed in its Fixed-Shared variant, which does it by mixing in additional exploration).
+Several features may help explain the strong practical performance of RM+ [3](#ref-houlimit). Like RM, it needs no learning-rate tuning, is scale-free under a common positive rescaling of the losses, and is straightforward to implement. RM+ also tracks changing comparators with its usual update. Ordinary RM and exponential weights can incur linear regret after a single switch, as the example above shows (for exponential weights, this is fixed in its fixed-share variant [5](#ref-herbster-warmuth), which does it by mixing in additional exploration).
 
 ## References
 
@@ -386,5 +386,13 @@ Several features may help explain the strong practical performance of RM+ [3](#r
 <a id="ref-flaspohler"></a>
 
 **\[4\]** Genevieve Flaspohler, Francesco Orabona, Judah Cohen, Soukayna Mouatadid, Miruna Oprescu, Paulo Orenstein, and Lester Mackey. *Online Learning with Optimism and Delay*. ICML, 2021. [PDF](https://proceedings.mlr.press/v139/flaspohler21a/flaspohler21a.pdf).
+
+<a id="ref-herbster-warmuth"></a>
+
+**\[5\]** Mark Herbster and Manfred K. Warmuth. *Tracking the Best Expert*. Machine Learning, 32:151–178, 1998. [PDF](https://link.springer.com/content/pdf/10.1023/A:1007424614876.pdf).
+
+<a id="ref-zinkevich"></a>
+
+**\[6\]** Martin Zinkevich. *Online Convex Programming and Generalized Infinitesimal Gradient Ascent*. ICML, 2003. [PDF](https://people.eecs.berkeley.edu/~brecht/cs294docs/week1/03.Zinkevich.pdf).
 
 {% endraw %}
